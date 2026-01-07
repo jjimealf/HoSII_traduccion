@@ -1,254 +1,254 @@
-<lang>
-	<string name="building.guild_hall.name">Salón del Gremio</string>
-	<string name="building.training_grounds.name">Campo de Entrenamiento</string>
-	<string name="building.general_store.name">Tienda General</string>
-	<string name="building.blacksmith.name">Herrería</string>
-	<string name="building.magic_shop.name">Tienda de Magia</string>	
-	<string name="building.apothecary.name">Botica</string>
-	<string name="building.enchanter.name">Encantador</string>
-	<string name="building.tavern.name">Taberna</string>
-	<string name="building.chapel.name">Capilla</string>
-	<string name="building.pyre.name">Pira</string>
-	<string name="building.architect.name">Arquitecto</string>
-	<string name="building.hunters_cabin.name">Cabaña del Cazador</string>
-	<string name="building.library.name">Biblioteca</string>
-	<string name="building.trading_post.name">Puesto de Comercio</string>
-	<string name="building.tailor.name">Sastre</string>
+<lang name="Spanish" min-size="5">
+<string name="building.guild_hall.name">Salón del Gremio</string>
+<string name="building.training_grounds.name">Campo de Entrenamiento</string>
+<string name="building.general_store.name">Tienda General</string>
+<string name="building.blacksmith.name">Herrería</string>
+<string name="building.magic_shop.name">Tienda de Magia</string>
+<string name="building.apothecary.name">Botica</string>
+<string name="building.enchanter.name">Encantador</string>
+<string name="building.tavern.name">Taberna</string>
+<string name="building.chapel.name">Capilla</string>
+<string name="building.pyre.name">Pira</string>
+<string name="building.architect.name">Arquitecto</string>
+<string name="building.hunters_cabin.name">Cabaña del Cazador</string>
+<string name="building.library.name">Biblioteca</string>
+<string name="building.trading_post.name">Puesto de Comercio</string>
+<string name="building.tailor.name">Sastre</string>
 
-	<string name="building.tier">Nivel %tier%</string>
-	<string name="building.build.new">Construir nuevo</string>
-	<string name="building.build.upgrade">Mejorar a nivel %num%</string>
-
-
-
-	<string name="tutorial.intro.move1">Intenta moverte:</string>
-	<string name="tutorial.intro.move2">También puedes avanzar rápidamente con %DashBind%.</string>
-	<string name="tutorial.intro.attack">Para atravesar esta barrera necesitarás atacar con tu arma o usar una habilidad.</string>
-	<string name="tutorial.intro.interact1">Para interactuar con un NPC, párate junto a ellos y presiona %UseBind%.</string>
-	<string name="tutorial.intro.interact2">Para ir a la siguiente área, muévete a una salida y presiona %UseBind%.</string>
-	<string name="tutorial.intro.combat">Se acercan algunos escarabajos enemigos, usa tu movimiento para evitar recibir daño y usa tus ataques para derrotarlos.</string>
-	<string name="tutorial.player_stash">Tu alijo de jugador está destinado a almacenar el equipo que encuentres y también a moverlo entre tus personajes.</string>
-	<string name="tutorial.player_training1">Cada vez que subes de nivel, ganas puntos de habilidad "icn-skillpt" y puntos de atributo "icn-attrpt".</string>
-	<string name="tutorial.player_training2">Los puntos de habilidad "icn-skillpt" se pueden usar para desbloquear nuevas habilidades y mejorarlas.</string>
-	<string name="tutorial.player_training3">Los puntos de atributo "icn-attrpt" se utilizan para aumentar tus atributos base, que proporcionan bonificaciones y son necesarios para usar equipo.</string>
-	<string name="tutorial.forest.start1">¡Bienvenido al bosque!\nSiempre puedes encontrar tu camino a través del bosque simplemente siguiendo el camino, pero te perderás muchas recompensas si lo haces.</string>
-	<string name="tutorial.forest.start2">Para obtener ayuda en la navegación, puedes abrir el mapa superpuesto o habilitar un minimapa permanente en las opciones.</string>
-	<string name="tutorial.forest.end1">Puedes echar un vistazo a tu inventario para ver lo que has recolectado en tu recorrido hasta ahora.</string>
-	<string name="tutorial.forest.end2">Muchas cosas, como Abalorios, mejoras de habilidades y beneficios son temporales y se pierden cuando termina la misión.\nOtras, como equipo, experiencia, dinero y materiales son permanentes y no se pierden.</string>
-	<string name="tutorial.forest.potion1">El boticario te da una poción que puedes usar para restaurar tu salud y maná en medio del combate.</string>
-	<string name="tutorial.forest.potion2">%PotionBind% para usar tu poción.</string>
-	<string name="tutorial.forest.potion3">Solo tienes una carga de tu poción, pero se puede rellenar en los pozos.</string>
-	<string name="tutorial.forest.finish">Asegúrate de hablar con los NPCs, a veces tienen más de una cosa que decir, así que sigue presionando %UseBind% para ver todo lo que quieren.</string>
-	<string name="tutorial.intro.guild_hall1">Asegúrate de mirar tu menú del gremio para ver las cosas compartidas entre tus héroes. Los logros y títulos dan bonificaciones pasivas a todos tus personajes, incluso a los nuevos.</string>
-	<string name="tutorial.intro.guild_hall2">Las clases sobresalen en diferentes tareas, cada una dando bonificaciones a todo tu gremio. Si sientes que eres demasiado débil para progresar, crear un nuevo personaje y subir de nivel una clase diferente te ayudará.</string>
+<string name="building.tier">Nivel %tier%</string>
+<string name="building.build.new">Construir nuevo</string>
+<string name="building.build.upgrade">Mejorar a nivel %num%</string>
 
 
 
-	<string name="dialogue.mercenary.join1">¡Nos uniremos a ti en esta misión!</string>
-	<string name="dialogue.mercenary.join2">¡Responderemos a tu llamado a las armas!</string>
-	<string name="dialogue.mercenary.archon.join1">¡Lidera el camino!</string>
-	<string name="dialogue.mercenary.archon.join2">¡Tú vas, nosotros seguimos!</string>
+<string name="tutorial.intro.move1">Intenta moverte:</string>
+<string name="tutorial.intro.move2">También puedes avanzar rápidamente con %DashBind%.</string>
+<string name="tutorial.intro.attack">Para atravesar esta barrera necesitarás atacar con tu arma o usar una habilidad.</string>
+<string name="tutorial.intro.interact1">Para interactuar con un NPC, párate junto a ellos y presiona %UseBind%.</string>
+<string name="tutorial.intro.interact2">Para ir a la siguiente área, muévete a una salida y presiona %UseBind%.</string>
+<string name="tutorial.intro.combat">Se acercan algunos escarabajos enemigos, usa tu movimiento para evitar recibir daño y usa tus ataques para derrotarlos.</string>
+<string name="tutorial.player_stash">Tu alijo de jugador está destinado a almacenar el equipo que encuentres y también a moverlo entre tus personajes.</string>
+<string name="tutorial.player_training1">Cada vez que subes de nivel, ganas puntos de habilidad "icn-skillpt" y puntos de atributo "icn-attrpt".</string>
+<string name="tutorial.player_training2">Los puntos de habilidad "icn-skillpt" se pueden usar para desbloquear nuevas habilidades y mejorarlas.</string>
+<string name="tutorial.player_training3">Los puntos de atributo "icn-attrpt" se utilizan para aumentar tus atributos base, que proporcionan bonificaciones y son necesarios para usar equipo.</string>
+<string name="tutorial.forest.start1">¡Bienvenido al bosque!\nSiempre puedes encontrar tu camino a través del bosque simplemente siguiendo el camino, pero te perderás muchas recompensas si lo haces.</string>
+<string name="tutorial.forest.start2">Para obtener ayuda en la navegación, puedes abrir el mapa superpuesto o habilitar un minimapa permanente en las opciones.</string>
+<string name="tutorial.forest.end1">Puedes echar un vistazo a tu inventario para ver lo que has recolectado en tu recorrido hasta ahora.</string>
+<string name="tutorial.forest.end2">Muchas cosas, como Abalorios, mejoras de habilidades y beneficios son temporales y se pierden cuando termina la misión.\nOtras, como equipo, experiencia, dinero y materiales son permanentes y no se pierden.</string>
+<string name="tutorial.forest.potion1">El boticario te da una poción que puedes usar para restaurar tu salud y maná en medio del combate.</string>
+<string name="tutorial.forest.potion2">%PotionBind% para usar tu poción.</string>
+<string name="tutorial.forest.potion3">Solo tienes una carga de tu poción, pero se puede rellenar en los pozos.</string>
+<string name="tutorial.forest.finish">Asegúrate de hablar con los NPCs, a veces tienen más de una cosa que decir, así que sigue presionando %UseBind% para ver todo lo que quieren.</string>
+<string name="tutorial.intro.guild_hall1">Asegúrate de mirar tu menú del gremio para ver las cosas compartidas entre tus héroes. Los logros y títulos dan bonificaciones pasivas a todos tus personajes, incluso a los nuevos.</string>
+<string name="tutorial.intro.guild_hall2">Las clases sobresalen en diferentes tareas, cada una dando bonificaciones a todo tu gremio. Si sientes que eres demasiado débil para progresar, crear un nuevo personaje y subir de nivel una clase diferente te ayudará.</string>
 
-	<string name="dialogue.player.dark_citadel.locked">Debe ser la Ciudadela Oscura. Me pregunto cómo entrar.</string>
 
 
-	<string name="npc.shop.armorer">Armero</string>
-	<string name="upgrades.armor.name">Armadura %num%</string>
-	<string name="upgrades.armor.desc">+%gain% armadura</string>
-	<string name="upgrades.attack_power.name">Arma %num%</string>
-	<string name="upgrades.attack_power.desc">+%gain% poder de arma</string>
-	<string name="upgrades.attack_speed.name">Velocidad de Arma %num%</string>
-	<string name="upgrades.attack_speed.desc">+%gain%% velocidad de arma</string>
+<string name="dialogue.mercenary.join1">¡Nos uniremos a ti en esta misión!</string>
+<string name="dialogue.mercenary.join2">¡Responderemos a tu llamado a las armas!</string>
+<string name="dialogue.mercenary.archon.join1">¡Lidera el camino!</string>
+<string name="dialogue.mercenary.archon.join2">¡Tú vas, nosotros seguimos!</string>
+
+<string name="dialogue.player.dark_citadel.locked">Debe ser la Ciudadela Oscura. Me pregunto cómo entrar.</string>
+
+
+<string name="npc.shop.armorer">Armero</string>
+<string name="upgrades.armor.name">Armadura %num%</string>
+<string name="upgrades.armor.desc">+%gain% armadura</string>
+<string name="upgrades.attack_power.name">Arma %num%</string>
+<string name="upgrades.attack_power.desc">+%gain% poder de arma</string>
+<string name="upgrades.attack_speed.name">Velocidad de Arma %num%</string>
+<string name="upgrades.attack_speed.desc">+%gain%% velocidad de arma</string>
 	
-	<string name="npc.shop.apothecary">Boticario</string>
-	<string name="upgrades.potion_charges.name">Cargas de Poción %num%</string>
-	<string name="upgrades.potion_charges.desc">+%gain% carga de poción</string>
-	<string name="upgrades.potion_health.name">Poción de Salud %num%</string>
-	<string name="upgrades.potion_health.desc">La poción cura %to% en lugar de %from%</string>
-	<string name="upgrades.potion_mana.name">Poción de Maná %num%</string>
-	<string name="upgrades.potion_mana.desc">La poción da %to% maná en lugar de %from%</string>
-	<string name="upgrades.poison_res.name">Resistencia al Veneno %num%</string>
-	<string name="upgrades.poison_res.desc">+%gain% resistencia al veneno</string>
+<string name="npc.shop.apothecary">Boticario</string>
+<string name="upgrades.potion_charges.name">Cargas de Poción %num%</string>
+<string name="upgrades.potion_charges.desc">+%gain% carga de poción</string>
+<string name="upgrades.potion_health.name">Poción de Salud %num%</string>
+<string name="upgrades.potion_health.desc">La poción cura %to% en lugar de %from%</string>
+<string name="upgrades.potion_mana.name">Poción de Maná %num%</string>
+<string name="upgrades.potion_mana.desc">La poción da %to% maná en lugar de %from%</string>
+<string name="upgrades.poison_res.name">Resistencia al Veneno %num%</string>
+<string name="upgrades.poison_res.desc">+%gain% resistencia al veneno</string>
 	
-	<string name="npc.shop.athlete">Atleta</string>
-	<string name="upgrades.dash_charges.name">Cargas de Dash %num%</string>
-	<string name="upgrades.dash_charges.desc">+%gain% carga de dash</string>
-	<string name="upgrades.dash_recharge.name">Recarga de Dash %num%</string>
-	<string name="upgrades.dash_recharge.desc">-%gain%% tiempo de recarga de dash</string>
-	<string name="upgrades.move_speed.name">Velocidad de Movimiento %num%</string>
-	<string name="upgrades.move_speed.desc">+%gain%% velocidad de movimiento</string>
-	<string name="upgrades.health_pickups.name">Recogidas de Salud %num%</string>
-	<string name="upgrades.health_pickups.desc">+%gain%% ganancia de recogida de salud</string>
+<string name="npc.shop.athlete">Atleta</string>
+<string name="upgrades.dash_charges.name">Cargas de Dash %num%</string>
+<string name="upgrades.dash_charges.desc">+%gain% carga de dash</string>
+<string name="upgrades.dash_recharge.name">Recarga de Dash %num%</string>
+<string name="upgrades.dash_recharge.desc">-%gain%% tiempo de recarga de dash</string>
+<string name="upgrades.move_speed.name">Velocidad de Movimiento %num%</string>
+<string name="upgrades.move_speed.desc">+%gain%% velocidad de movimiento</string>
+<string name="upgrades.health_pickups.name">Recogidas de Salud %num%</string>
+<string name="upgrades.health_pickups.desc">+%gain%% ganancia de recogida de salud</string>
 	
-	<string name="npc.shop.mystic">Místico</string>
-	<string name="upgrades.ele_res.name">Resistencia Elemental %num%</string>
-	<string name="upgrades.ele_res.desc">+%gain% resistencia al Fuego, Hielo y Rayo</string>
-	<string name="upgrades.mana_pickups.name">Recogidas de Maná %num%</string>
-	<string name="upgrades.mana_pickups.desc">+%gain%% ganancia de recogida de maná</string>
-	<string name="upgrades.spell_power.name">Poder de Hechizo %num%</string>
-	<string name="upgrades.spell_power.desc">+%gain% poder de hechizo</string>
+<string name="npc.shop.mystic">Místico</string>
+<string name="upgrades.ele_res.name">Resistencia Elemental %num%</string>
+<string name="upgrades.ele_res.desc">+%gain% resistencia al Fuego, Hielo y Rayo</string>
+<string name="upgrades.mana_pickups.name">Recogidas de Maná %num%</string>
+<string name="upgrades.mana_pickups.desc">+%gain%% ganancia de recogida de maná</string>
+<string name="upgrades.spell_power.name">Poder de Hechizo %num%</string>
+<string name="upgrades.spell_power.desc">+%gain% poder de hechizo</string>
 
-	<string name="npc.shop.attribute_assigner">Asignar Atributos</string>
-	<string name="npc.shop.material_trader">Intercambiar Material</string>
-	<string name="npc.shop.library_skill">Asignar Habilidad</string>
-	<string name="npc.shop.skill_trainer">Entrenador de Habilidades</string>
-	<string name="npc.shop.equipment_upgrade">Mejorar Equipo</string>
-	<string name="npc.shop.equipment_enchant">Encantar Equipo</string>
-	<string name="npc.shop.weapon_mastery">Maestría de Armas</string>
-	<string name="npc.shop.spell_mastery">Maestría de Hechizos</string>
-	<string name="npc.shop.trinket_attune">Sintonizar Abalorios</string>
-	<string name="npc.shop.chapel_donation">Donación a la Capilla</string>
-	<string name="npc.shop.dye_equipment">Teñir Equipo</string>
-	<string name="npc.shop.combo_trainer">Entrenador de Combos</string>
+<string name="npc.shop.attribute_assigner">Asignar Atributos</string>
+<string name="npc.shop.material_trader">Intercambiar Material</string>
+<string name="npc.shop.library_skill">Asignar Habilidad</string>
+<string name="npc.shop.skill_trainer">Entrenador de Habilidades</string>
+<string name="npc.shop.equipment_upgrade">Mejorar Equipo</string>
+<string name="npc.shop.equipment_enchant">Encantar Equipo</string>
+<string name="npc.shop.weapon_mastery">Maestría de Armas</string>
+<string name="npc.shop.spell_mastery">Maestría de Hechizos</string>
+<string name="npc.shop.trinket_attune">Sintonizar Abalorios</string>
+<string name="npc.shop.chapel_donation">Donación a la Capilla</string>
+<string name="npc.shop.dye_equipment">Teñir Equipo</string>
+<string name="npc.shop.combo_trainer">Entrenador de Combos</string>
 
-	<string name="npc.shop.spell_mastery.desc">La Maestría de Hechizos aumenta el daño de ciertos hechizos en %dmg%, pero también aumenta su costo de maná en %mana%</string>
-	<string name="npc.shop.equipment_upgrade.upgrade">(Mejorar ilvl en %amnt%)</string>
-	<string name="npc.shop.equipment_upgrade.empty">No tienes nada equipado que se pueda mejorar.</string>
-	<string name="menu.enchanter.no_equipment">No tienes nada equipado que se pueda encantar.</string>
-
-	<string name="npc.shop.chapel_donation.donate">Donar %mat%</string>
-	<string name="npc.shop.chapel_donation.donate.desc">%curr% donados, da otros %add%.</string>
-
-	<string name="npc.shop.builder">Construir Edificio</string>
-	<string name="npc.shop.builder.empty.demo">¡El juego completo tiene más edificios y mejoras!</string>
-
+<string name="npc.shop.spell_mastery.desc">La Maestría de Hechizos aumenta el daño de ciertos hechizos en %dmg%, pero también aumenta su costo de maná en %mana%</string>
+<string name="npc.shop.equipment_upgrade.upgrade">(Mejorar ilvl en %amnt%)</string>
+<string name="npc.shop.equipment_upgrade.empty">No tienes nada equipado que se pueda mejorar.</string>
+<string name="menu.enchanter.no_equipment">No tienes nada equipado que se pueda encantar.</string>
 	
-	<string name="npc.shop.upgrades.empty">Ya sabes todo.</string>
-	<string name="npc.shop.upgrades.empty.shoplvl">Mejora esta tienda para más mejoras.</string>
+<string name="npc.shop.chapel_donation.donate">Donar %mat%</string>
+<string name="npc.shop.chapel_donation.donate.desc">%curr% donados, da otros %add%.</string>
 
-	<string name="npc.shop.equip.sell">Vende tu equipo</string>
-	<string name="npc.shop.equip.sell.empty">No tienes equipo para vender.</string>
-	<string name="npc.shop.equip.buy">Comprar nuevo equipo</string>
-	<string name="npc.shop.trinket.buy">Comprar Amuletos</string>
-	<string name="npc.shop.trinket.left">Puedes comprar: %num%</string>
-	<string name="npc.shop.equip.take">Elige una pieza de equipo</string>
-	<string name="npc.shop.trinket.picker">Elige un amuleto</string>
-	<string name="npc.shop.mission_map">Viajar a la Misión</string>
-	<string name="npc.shop.mission_map.empty">Encuentra mapas para tener misiones para comenzar.</string>
+<string name="npc.shop.builder">Construir Edificio</string>
+<string name="npc.shop.builder.empty.demo">¡El juego completo tiene más edificios y mejoras!</string>
 	
-	<string name="npc.shop.material_trader.buy">Comprar %amnt% %mat%</string>
-	<string name="npc.shop.material_trader.sell">Vender %amnt% %mat%</string>
 
-	<string name="npc.shop.buy.gold">Comprar por oro</string>
-	<string name="npc.shop.sell.gold">Vender por oro</string>
+<string name="npc.shop.upgrades.empty">Ya sabes todo.</string>
+<string name="npc.shop.upgrades.empty.shoplvl">Mejora esta tienda para más mejoras.</string>
 
-	<string name="npc.shop.equip.take.prompt">¡Mi carro está completamente lleno! ¿Te gustaría una pieza de equipo?</string>
+<string name="npc.shop.equip.sell">Vende tu equipo</string>
+<string name="npc.shop.equip.sell.empty">No tienes equipo para vender.</string>
+<string name="npc.shop.equip.buy">Comprar nuevo equipo</string>
+<string name="npc.shop.trinket.buy">Comprar Amuletos</string>
+<string name="npc.shop.trinket.left">Puedes comprar: %num%</string>
+<string name="npc.shop.equip.take">Elige una pieza de equipo</string>
+<string name="npc.shop.trinket.picker">Elige un amuleto</string>
+<string name="npc.shop.mission_map">Viajar a la Misión</string>
+<string name="npc.shop.mission_map.empty">Encuentra mapas para tener misiones para comenzar.</string>
 
+<string name="npc.shop.material_trader.buy">Comprar %amnt% %mat%</string>
+<string name="npc.shop.material_trader.sell">Vender %amnt% %mat%</string>
+
+<string name="npc.shop.buy.gold">Comprar por oro</string>
+<string name="npc.shop.sell.gold">Vender por oro</string>
+
+<string name="npc.shop.equip.take.prompt">¡Mi carro está completamente lleno! ¿Te gustaría una pieza de equipo?</string>
+
+
+
+<string name="dialogue.adam.intro.shout">¡Ayuda!</string>
+<string name="dialogue.adam.intro.prompt1">¡El culto encontró nuestro campamento y atacó!</string>
+<string name="dialogue.player.intro.response1">¿Qué está pasando?</string>
+<string name="dialogue.adam.intro.prompt2">¿Por favor, nos ayudarás? No somos soldados, ¡matarán a todos!</string>
+<string name="dialogue.player.intro.response2">¡Por supuesto!</string>
+<string name="dialogue.adam.intro.prompt3">¡Gracias! Usualmente solo los goblins son una amenaza, pero han sido manejables.</string>
+<string name="dialogue.adam.intro.prompt4">Recientemente los cultistas han estado más activos y han salido de su templo.</string>
+<string name="dialogue.adam.intro.prompt5">¡Pero por favor, date prisa, no sé por cuánto tiempo podrán resistir!</string>
+
+
+<string name="dialogue.adam.prompt1.1">Nunca podremos pagarte.</string>
+<string name="dialogue.adam.prompt1.2">No solo el culto se está volviendo agresivo, ¡los goblins también parecen estar tramando algo!</string>
+<string name="dialogue.adam.prompt2.1">Las cosas realmente están empezando a tomar forma por aquí.</string>
+<string name="dialogue.adam.prompt2.2">Espero que el culto no nos encuentre de nuevo.</string>
+<string name="dialogue.adam.prompt3">Construir así nunca habría sido posible sin ti, muchas gracias.</string>
+
+<string name="dialogue.kevin.prompt1.1">¡Estas son unas bebidas geniales! Siempre deberías beber algo antes de salir al bosque, ¡es mucho más divertido!</string>
+<string name="dialogue.kevin.prompt1.2">Hay recetas por ahí tanto para comida como para bebidas.</string>
+
+<string name="dialogue.kelly.prompt1.1">Es una ciudad muy amigable con las mascotas, a mis gatos les encanta explorar.</string>
+<string name="dialogue.kelly.prompt1.2">Este lugar es acogedor, pero me encantaría mudarme a una de las casas más grandes.</string>
+<string name="dialogue.kelly.prompt1.3">Encantada de conocerte, puedes llamarme Kelly.</string>
+
+
+<string name="dialogue.traveling_monk.prompt1.1">Oye, ¿nos hemos conocido antes?</string>
+<string name="dialogue.traveling_monk.prompt1.2">A menudo estoy en la carretera, viajando a nuevos lugares donde la luz aún no ha llegado.</string>
+
+<string name="dialogue.elin.prompt1.1">¿Leíste alguno de estos?</string>
+<string name="dialogue.elin.prompt1.2">Hay cosas geniales aquí.</string>
+<string name="dialogue.elin.prompt1.3">Tal vez debería llevar esto a la taberna y leerlo allí.</string>
+
+<string name="dialogue.grandma.prompt1">Espero que mi nieto venga pronto. Lo extraño.</string>
+
+<string name="dialogue.guard_exit.prompt1">¡Ten cuidado ahí fuera!</string>
+
+<string name="dialogue.griffin_rider.prompt1.1">El grifo puede llevarte a cualquier lugar, solo necesitas un mapa de a dónde quieres ir.</string>
+<string name="dialogue.griffin_rider.prompt1.2">Encuentra un mapa en la mazmorras y muéstraselo al grifo, te llevará allí.</string>
+
+
+<string name="dialogue.librarian.found">¡Oh, hola! He estado buscando por un tiempo, pero no hay nada aquí. Ni un solo libro.</string>
+<string name="dialogue.librarian.prompt1.1">Los libros son realmente algo especial, pueden llevarte a un mundo diferente, a un tipo de pensamiento diferente.</string>
+<string name="dialogue.librarian.prompt1.2">Deberías considerar construir una biblioteca, llevaría esta ciudad al siguiente nivel.</string>
+	
+<string name="dialogue.enchanter.found.1">Hay tantos encantamientos y hechizos en estos libros y pergaminos.</string>
+<string name="dialogue.enchanter.found.2">Todo esto es muy único, pero necesito salir de aquí. ¡Hay amenazas por todas partes aquí!</string>
+	
+<string name="dialogue.architect.found.1">Gracias por salvarme, pero temo que podría ser demasiado tarde.</string>
+<string name="dialogue.architect.found.2">Nunca les ayudé a atravesar la entrada principal, pero creo que lograron llegar a la ciudadela a través de esta cripta.</string>
+<string name="dialogue.architect.prompt1">Te encontraré en el bosque junto a la ciudadela.</string>
+<string name="dialogue.architect.prompt2">Te abriré esto.</string>
+	
+<string name="dialogue.spell_mastery.found">¡Finalmente alguien vivo! ¿Sabes la salida?</string>
+	
+<string name="dialogue.dyer.found">¡Gracias por ayudarme! A cambio, te ayudaré con la coordinación de colores.</string>
 	
 	
-	<string name="dialogue.adam.intro.shout">¡Ayuda!</string>
-	<string name="dialogue.adam.intro.prompt1">¡El culto encontró nuestro campamento y atacó!</string>
-	<string name="dialogue.player.intro.response1">¿Qué está pasando?</string>
-	<string name="dialogue.adam.intro.prompt2">¿Por favor, nos ayudarás? No somos soldados, ¡matarán a todos!</string>
-	<string name="dialogue.player.intro.response2">¡Por supuesto!</string>
-	<string name="dialogue.adam.intro.prompt3">¡Gracias! Usualmente solo los goblins son una amenaza, pero han sido manejables.</string>
-	<string name="dialogue.adam.intro.prompt4">Recientemente los cultistas han estado más activos y han salido de su templo.</string>
-	<string name="dialogue.adam.intro.prompt5">¡Pero por favor, date prisa, no sé por cuánto tiempo podrán resistir!</string>
 
+<string name="dialogue.rogue.found.1">¡Hola! ¿También estás buscando tesoros?</string>
+<string name="dialogue.rogue.found.2">¿Tienes un campamento montado? Si tienes espacio para mí, te mostraré algunos trucos.</string>
+<string name="dialogue.rogue.is_same">Hm. No estoy seguro de confiar en ti.</string>
+<string name="dialogue.rogue.is_other">Considera entrenar a alguien en las artes, poder pasar más seguro por las trampas es útil.</string>
 
-	<string name="dialogue.adam.prompt1.1">Nunca podremos pagarte.</string>
-	<string name="dialogue.adam.prompt1.2">No solo el culto se está volviendo agresivo, ¡los goblins también parecen estar tramando algo!</string>
-	<string name="dialogue.adam.prompt2.1">Las cosas realmente están empezando a tomar forma por aquí.</string>
-	<string name="dialogue.adam.prompt2.2">Espero que el culto no nos encuentre de nuevo.</string>
-	<string name="dialogue.adam.prompt3">Construir así nunca habría sido posible sin ti, muchas gracias.</string>
+<string name="dialogue.warlock.found.1">¡Ten cuidado! La puerta está atrapada, y además, las criptas de abajo son muy peligrosas.</string>
+<string name="dialogue.warlock.found.2">Algo se está despertando allí abajo, me voy de aquí y tú deberías hacer lo mismo.</string>
+<string name="dialogue.warlock.is_same">Me alegra verte, acólito.</string>
+<string name="dialogue.warlock.is_other">Nosotros en el lado oscuro de la magia tenemos más visión que muchos, esta magia de sombras es algo especial.</string>
 
-	<string name="dialogue.kevin.prompt1.1">¡Estas son unas bebidas geniales! Siempre deberías beber algo antes de salir al bosque, ¡es mucho más divertido!</string>
-	<string name="dialogue.kevin.prompt1.2">Hay recetas por ahí tanto para comida como para bebidas.</string>
-
-	<string name="dialogue.kelly.prompt1.1">Es una ciudad muy amigable con las mascotas, a mis gatos les encanta explorar.</string>
-	<string name="dialogue.kelly.prompt1.2">Este lugar es acogedor, pero me encantaría mudarme a una de las casas más grandes.</string>
-	<string name="dialogue.kelly.prompt1.3">Encantada de conocerte, puedes llamarme Kelly.</string>
-
-
-	<string name="dialogue.traveling_monk.prompt1.1">Oye, ¿nos hemos conocido antes?</string>
-	<string name="dialogue.traveling_monk.prompt1.2">A menudo estoy en la carretera, viajando a nuevos lugares donde la luz aún no ha llegado.</string>
-
-	<string name="dialogue.elin.prompt1.1">¿Leíste alguno de estos?</string>
-	<string name="dialogue.elin.prompt1.2">Hay cosas geniales aquí.</string>
-	<string name="dialogue.elin.prompt1.3">Tal vez debería llevar esto a la taberna y leerlo allí.</string>
-
-	<string name="dialogue.grandma.prompt1">Espero que mi nieto venga pronto. Lo extraño.</string>
-
-	<string name="dialogue.guard_exit.prompt1">¡Ten cuidado ahí fuera!</string>
-
-	<string name="dialogue.griffin_rider.prompt1.1">El grifo puede llevarte a cualquier lugar, solo necesitas un mapa de a dónde quieres ir.</string>
-	<string name="dialogue.griffin_rider.prompt1.2">Encuentra un mapa en la mazmorras y muéstraselo al grifo, te llevará allí.</string>
-
-	
-	<string name="dialogue.librarian.found">¡Oh, hola! He estado buscando por un tiempo, pero no hay nada aquí. Ni un solo libro.</string>
-	<string name="dialogue.librarian.prompt1.1">Los libros son realmente algo especial, pueden llevarte a un mundo diferente, a un tipo de pensamiento diferente.</string>
-	<string name="dialogue.librarian.prompt1.2">Deberías considerar construir una biblioteca, llevaría esta ciudad al siguiente nivel.</string>
-	
-	<string name="dialogue.enchanter.found.1">Hay tantos encantamientos y hechizos en estos libros y pergaminos.</string>
-	<string name="dialogue.enchanter.found.2">Todo esto es muy único, pero necesito salir de aquí. ¡Hay amenazas por todas partes aquí!</string>
-	
-	<string name="dialogue.architect.found.1">Gracias por salvarme, pero temo que podría ser demasiado tarde.</string>
-	<string name="dialogue.architect.found.2">Nunca les ayudé a atravesar la entrada principal, pero creo que lograron llegar a la ciudadela a través de esta cripta.</string>
-	<string name="dialogue.architect.prompt1">Te encontraré en el bosque junto a la ciudadela.</string>
-	<string name="dialogue.architect.prompt2">Te abriré esto.</string>
-
-	<string name="dialogue.spell_mastery.found">¡Finalmente alguien vivo! ¿Sabes la salida?</string>
-
-	<string name="dialogue.dyer.found">¡Gracias por ayudarme! A cambio, te ayudaré con la coordinación de colores.</string>
-	
-	
-	
-	<string name="dialogue.rogue.found.1">¡Hola! ¿También estás buscando tesoros?</string>
-	<string name="dialogue.rogue.found.2">¿Tienes un campamento montado? Si tienes espacio para mí, te mostraré algunos trucos.</string>
-	<string name="dialogue.rogue.is_same">Hm. No estoy seguro de confiar en ti.</string>
-	<string name="dialogue.rogue.is_other">Considera entrenar a alguien en las artes, poder pasar más seguro por las trampas es útil.</string>
-
-	<string name="dialogue.warlock.found.1">¡Ten cuidado! La puerta está atrapada, y además, las criptas de abajo son muy peligrosas.</string>
-	<string name="dialogue.warlock.found.2">Algo se está despertando allí abajo, me voy de aquí y tú deberías hacer lo mismo.</string>
-	<string name="dialogue.warlock.is_same">Me alegra verte, acólito.</string>
-	<string name="dialogue.warlock.is_other">Nosotros en el lado oscuro de la magia tenemos más visión que muchos, esta magia de sombras es algo especial.</string>
-
-	<string name="dialogue.sorcerer.found.1">¡Oh, hola! ¿También descifraste esa puerta? Ahora se pone más difícil.</string>
-	<string name="dialogue.sorcerer.found.2">Cuantas más velas encienda antes de continuar, más difícil será la pelea. Aún no he logrado pasar de las sombras, así que no estoy seguro de lo que viene después.</string>
-	<string name="dialogue.sorcerer.is_same">¿Otro estudiante de los elementos? Bien, desbloquean los secretos del universo.</string>
-	<string name="dialogue.sorcerer.is_other">Hay magia a nuestro alrededor, todo lo que necesitas hacer es canalizarla.</string>
+<string name="dialogue.sorcerer.found.1">¡Oh, hola! ¿También descifraste esa puerta? Ahora se pone más difícil.</string>
+<string name="dialogue.sorcerer.found.2">Cuantas más velas encienda antes de continuar, más difícil será la pelea. Aún no he logrado pasar de las sombras, así que no estoy seguro de lo que viene después.</string>
+<string name="dialogue.sorcerer.is_same">¿Otro estudiante de los elementos? Bien, desbloquean los secretos del universo.</string>
+<string name="dialogue.sorcerer.is_other">Hay magia a nuestro alrededor, todo lo que necesitas hacer es canalizarla.</string>
 
 
 
-	<string name="dialogue.hunter.intro1">Oh, ¿se ha derrumbado el camino?</string>
-	<string name="dialogue.hunter.intro2">Probablemente puedas rodearlo cruzando el arroyo al oeste y luego dirigiéndote más al norte en el bosque.</string>
-	<string name="dialogue.hunter.intro3">Pero ten cuidado, los bosques aquí son peligrosos y el camino puede haber sido bloqueado deliberadamente.</string>
+<string name="dialogue.hunter.intro1">Oh, ¿se ha derrumbado el camino?</string>
+<string name="dialogue.hunter.intro2">Probablemente puedas rodearlo cruzando el arroyo al oeste y luego dirigiéndote más al norte en el bosque.</string>
+<string name="dialogue.hunter.intro3">Pero ten cuidado, los bosques aquí son peligrosos y el camino puede haber sido bloqueado deliberadamente.</string>
 
-	<string name="dialogue.hunter.prompt1">Oh, ¿estás montando un campamento? Si puedes conseguirme las herramientas, te enseñaré cómo obtener lo mejor de las bestias que cazas.</string>
-	<string name="dialogue.hunter.prompt2.1">Necesito un refugio mejor que esta tienda.</string>
-	<string name="dialogue.hunter.prompt2.2">¿Qué está pasando con esos idiotas con túnicas corriendo por el bosque, sabes algo al respecto?</string>
-	<string name="dialogue.hunter.prompt3">¿Cómo te va por ahí?</string>
-
-
-	<string name="dialogue.builder.intro.prompt1">¡Todos prepárense, esta es nuestra última resistencia!</string>
-	<string name="dialogue.builder.intro.prompt2.1">¡Vaya, eres un verdadero héroe! Muchas gracias, no habríamos sobrevivido sin ti.</string>
-	<string name="dialogue.builder.intro.prompt2.2">Esos cultistas nunca dejarán de venir ahora que nos encontraron, han estado muy agresivos últimamente.</string>
+<string name="dialogue.hunter.prompt1">Oh, ¿estás montando un campamento? Si puedes conseguirme las herramientas, te enseñaré cómo obtener lo mejor de las bestias que cazas.</string>
+<string name="dialogue.hunter.prompt2.1">Necesito un refugio mejor que esta tienda.</string>
+<string name="dialogue.hunter.prompt2.2">¿Qué está pasando con esos idiotas con túnicas corriendo por el bosque, sabes algo al respecto?</string>
+<string name="dialogue.hunter.prompt3">¿Cómo te va por ahí?</string>
 
 
-	<string name="dialogue.apothecary.intro.prompt1.1">¡Gracias por tu ayuda! Destruyeron mi laboratorio, así que estoy limitado en lo que puedo hacer por ti, pero aquí, toma una poción.</string>
-	<string name="dialogue.apothecary.intro.prompt1.2">Necesito un laboratorio de boticario adecuado para ayudarte más, pero podré mejorar tu poción.</string>
+<string name="dialogue.builder.intro.prompt1">¡Todos prepárense, esta es nuestra última resistencia!</string>
+<string name="dialogue.builder.intro.prompt2.1">¡Vaya, eres un verdadero héroe! Muchas gracias, no habríamos sobrevivido sin ti.</string>
+<string name="dialogue.builder.intro.prompt2.2">Esos cultistas nunca dejarán de venir ahora que nos encontraron, han estado muy agresivos últimamente.</string>
+
+
+<string name="dialogue.apothecary.intro.prompt1.1">¡Gracias por tu ayuda! Destruyeron mi laboratorio, así que estoy limitado en lo que puedo hacer por ti, pero aquí, toma una poción.</string>
+<string name="dialogue.apothecary.intro.prompt1.2">Necesito un laboratorio de boticario adecuado para ayudarte más, pero podré mejorar tu poción.</string>
 
 
 
-	<string name="dialogue.chaplain.intro.prompt1.1">Eso fue tan aterrador, realmente llegaste como una bendición del cielo.</string>
-	<string name="dialogue.chaplain.intro.prompt1.2">Puedo llevarnos a un lugar más seguro.</string>
-	<string name="dialogue.chaplain.prompt1.1">Esos cultistas han estado tratando de entrar en la Ciudadela Oscura durante algún tiempo, pero han sido mucho más agresivos últimamente. Podrían estar acercándose ahora.</string>
-	<string name="dialogue.chaplain.prompt1.2">La Ciudadela ha estado cerrada durante siglos; nadie sabe lo que pasó.</string>
-	<string name="dialogue.chaplain.prompt1.3">Sería de gran ayuda si pudieras dirigirte al norte, al bosque, e investigar este asunto.</string>
+<string name="dialogue.chaplain.intro.prompt1.1">Eso fue tan aterrador, realmente llegaste como una bendición del cielo.</string>
+<string name="dialogue.chaplain.intro.prompt1.2">Puedo llevarnos a un lugar más seguro.</string>
+<string name="dialogue.chaplain.prompt1.1">Esos cultistas han estado tratando de entrar en la Ciudadela Oscura durante algún tiempo, pero han sido mucho más agresivos últimamente. Podrían estar acercándose ahora.</string>
+<string name="dialogue.chaplain.prompt1.2">La Ciudadela ha estado cerrada durante siglos; nadie sabe lo que pasó.</string>
+<string name="dialogue.chaplain.prompt1.3">Sería de gran ayuda si pudieras dirigirte al norte, al bosque, e investigar este asunto.</string>
 
 
-	<string name="dialogue.subclass.lowlvl">No puedo ayudarte aún,\nvuelve cuando estés en el nivel 10.</string>
+<string name="dialogue.subclass.lowlvl">No puedo ayudarte aún,\nvuelve cuando estés en el nivel 10.</string>
 
 
-	<string name="dialogue.armorer.rescue">¡Oye! ¿Conoces el camino hacia los demás?</string>
-	<string name="dialogue.armorer.prompt1">Gracias por encontrarnos y traernos aquí, haremos lo que podamos para ayudar.</string>
+<string name="dialogue.armorer.rescue">¡Oye! ¿Conoces el camino hacia los demás?</string>
+<string name="dialogue.armorer.prompt1">Gracias por encontrarnos y traernos aquí, haremos lo que podamos para ayudar.</string>
 
-	<string name="dialogue.blacksmith.rescue">¡Oh, genial, si fuera por mi hermano aquí todavía estaríamos perdidos!</string>
-	<string name="dialogue.blacksmith.prompt1">¡Este es un buen lugar que tienes aquí! Si puedes ayudarnos a construir una herrería, puedo ayudar a mejorar tu equipo.</string>
-	<string name="dialogue.blacksmith.prompt2.1">Mi hermano puede enseñarte a usar tu armadura y armas de manera más eficiente, si puedes conseguirnos recursos para una forja adecuada, también podré mejorar tu equipo.</string>
-	<string name="dialogue.blacksmith.prompt2.2">También tenemos armas en la parte trasera para la venta, son piezas simples, pero de alta calidad.</string>
+<string name="dialogue.blacksmith.rescue">¡Oh, genial, si fuera por mi hermano aquí todavía estaríamos perdidos!</string>
+<string name="dialogue.blacksmith.prompt1">¡Este es un buen lugar que tienes aquí! Si puedes ayudarnos a construir una herrería, puedo ayudar a mejorar tu equipo.</string>
+<string name="dialogue.blacksmith.prompt2.1">Mi hermano puede enseñarte a usar tu armadura y armas de manera más eficiente, si puedes conseguirnos recursos para una forja adecuada, también podré mejorar tu equipo.</string>
+<string name="dialogue.blacksmith.prompt2.2">También tenemos armas en la parte trasera para la venta, son piezas simples, pero de alta calidad.</string>
 
 
-	<string name="dialogue.shadowface_cultist.laugh">Hehehe....</string>
-	
+<string name="dialogue.shadowface_cultist.laugh">Hehehe....</string>
+
 </lang>

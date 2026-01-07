@@ -1,199 +1,199 @@
-<lang>
+<lang name="Spanish" min-size="5">
 
-	<string name="item.system.epic_name">%prefix% %suffix%</string>
-	<string name="item.system.eqipment_pfx">%prefix% %base%</string>
-	<string name="item.system.eqipment_sfx">%base% %suffix%</string>
-	<string name="item.system.eqipment_pfx_sfx">%prefix% %base% %suffix%</string>
-
-
-	<string name="equipment.mainhand.axe.1a">Hacha de Batalla</string>
-	<string name="equipment.mainhand.axe.2a">Hacha de Guerra</string>
-	<string name="equipment.mainhand.axe.3a">Hacha de Batalla de Doble Cabeza</string>
-	<string name="equipment.mainhand.axe.4a">Hacha Real</string>
-
-	<string name="equipment.mainhand.mace.1a">Maza de Bola</string>
-	<string name="equipment.mainhand.mace.2a">Maza Aflorada</string>
-	<string name="equipment.mainhand.mace.3a">Maza de Guerra</string>
-	<string name="equipment.mainhand.mace.4a">Maza Regia</string>
-
-	<string name="equipment.mainhand.longsword.1a">Espada Larga</string>
-	<string name="equipment.mainhand.longsword.2a">Espada Bastarda</string>
-	<string name="equipment.mainhand.longsword.3a">Espada de Guerra</string>
-	<string name="equipment.mainhand.longsword.4a">Espada de Platino</string>
-
-	<string name="equipment.mainhand.shortsword.1a">Espada Corta</string>
-	<string name="equipment.mainhand.shortsword.2a">Espada Elegante</string>
-	<string name="equipment.mainhand.shortsword.3a">Espada Noble</string>
-	<string name="equipment.mainhand.shortsword.4a">Espada de Campeón</string>
-
-	<string name="equipment.mainhand.dagger.1a">Daga de Hierro</string>
-	<string name="equipment.mainhand.dagger.2a">Daga de Acero</string>
-	<string name="equipment.mainhand.dagger.3a">Daga Noble</string>
-	<string name="equipment.mainhand.dagger.4a">Daga Majestuosa</string>
-
-	<string name="equipment.mainhand.wand.fire.1a">Varita de Fuego</string>
-	<string name="equipment.mainhand.wand.fire.2a">Varita de Fuego Adepta</string>
-	<string name="equipment.mainhand.wand.fire.3a">Gran Varita de Fuego</string>
-	<string name="equipment.mainhand.wand.fire.4a">Varita de Fuego Maestra</string>
-
-	<string name="equipment.mainhand.wand.ice.1a">Varita de Escarcha</string>
-	<string name="equipment.mainhand.wand.ice.2a">Varita de Escarcha Adepta</string>
-	<string name="equipment.mainhand.wand.ice.3a">Gran Varita de Escarcha</string>
-	<string name="equipment.mainhand.wand.ice.4a">Varita de Escarcha Maestra</string>
-
-	<string name="equipment.mainhand.wand.lightning.1a">Varita de Relámpago</string>
-	<string name="equipment.mainhand.wand.lightning.2a">Varita de Relámpago Adepta</string>
-	<string name="equipment.mainhand.wand.lightning.3a">Gran Varita de Relámpago</string>
-	<string name="equipment.mainhand.wand.lightning.4a">Varita de Relámpago Maestra</string>
+<string name="item.system.epic_name">%prefix% %suffix%</string>
+<string name="item.system.eqipment_pfx">%prefix% %base%</string>
+<string name="item.system.eqipment_sfx">%base% %suffix%</string>
+<string name="item.system.eqipment_pfx_sfx">%prefix% %base% %suffix%</string>
 
 
-	<string name="equipment.offhand.dirk.1a">Daga de Hierro</string>
-	<string name="equipment.offhand.dirk.2a">Daga de Acero</string>
-	<string name="equipment.offhand.dirk.3a">Kris Ritual</string>
-	<string name="equipment.offhand.dirk.4a">Kris Dorado</string>
+<string name="equipment.mainhand.axe.1a">Hacha de Batalla</string>
+<string name="equipment.mainhand.axe.2a">Hacha de Guerra</string>
+<string name="equipment.mainhand.axe.3a">Hacha de Batalla de Doble Cabeza</string>
+<string name="equipment.mainhand.axe.4a">Hacha Real</string>
 
-	<string name="equipment.offhand.shield.1a">Escudo de Madera</string>
-	<string name="equipment.offhand.shield.2a">Escudo Redondo</string>
-	<string name="equipment.offhand.shield.3a">Escudo de Calor</string>
-	<string name="equipment.offhand.shield.4a">Escudo Decorado</string>
+<string name="equipment.mainhand.mace.1a">Maza de Bola</string>
+<string name="equipment.mainhand.mace.2a">Maza Aflorada</string>
+<string name="equipment.mainhand.mace.3a">Maza de Guerra</string>
+<string name="equipment.mainhand.mace.4a">Maza Regia</string>
 
-	<string name="equipment.offhand.crossbow.1a">Ballesta de Mano</string>
-	<string name="equipment.offhand.crossbow.2a">Ballesta de Mano</string>
-	<string name="equipment.offhand.crossbow.3a">Ballesta de Mano Noble</string>
-	<string name="equipment.offhand.crossbow.4a">Ballesta de Mano Dorada</string>
+<string name="equipment.mainhand.longsword.1a">Espada Larga</string>
+<string name="equipment.mainhand.longsword.2a">Espada Bastarda</string>
+<string name="equipment.mainhand.longsword.3a">Espada de Guerra</string>
+<string name="equipment.mainhand.longsword.4a">Espada de Platino</string>
 
-	<string name="equipment.offhand.tome.fire.1a">Tomo de Fuego</string>
-	<string name="equipment.offhand.tome.fire.2a">Tomo de Fuego Adepto</string>
-	<string name="equipment.offhand.tome.fire.3a">Gran Tomo de Fuego</string>
-	<string name="equipment.offhand.tome.fire.4a">Tomo de Fuego Maestro</string>
+<string name="equipment.mainhand.shortsword.1a">Espada Corta</string>
+<string name="equipment.mainhand.shortsword.2a">Espada Elegante</string>
+<string name="equipment.mainhand.shortsword.3a">Espada Noble</string>
+<string name="equipment.mainhand.shortsword.4a">Espada de Campeón</string>
 
-	<string name="equipment.offhand.tome.ice.1a">Tomo de Escarcha</string>
-	<string name="equipment.offhand.tome.ice.2a">Tomo de Escarcha Adepto</string>
-	<string name="equipment.offhand.tome.ice.3a">Gran Tomo de Escarcha</string>
-	<string name="equipment.offhand.tome.ice.4a">Tomo de Escarcha Maestro</string>
+<string name="equipment.mainhand.dagger.1a">Daga de Hierro</string>
+<string name="equipment.mainhand.dagger.2a">Daga de Acero</string>
+<string name="equipment.mainhand.dagger.3a">Daga Noble</string>
+<string name="equipment.mainhand.dagger.4a">Daga Majestuosa</string>
 
-	<string name="equipment.offhand.tome.lightning.1a">Tomo de Relámpago</string>
-	<string name="equipment.offhand.tome.lightning.2a">Tomo de Relámpago Adepto</string>
-	<string name="equipment.offhand.tome.lightning.3a">Gran Tomo de Relámpago</string>
-	<string name="equipment.offhand.tome.lightning.4a">Tomo de Relámpago Maestro</string>
+<string name="equipment.mainhand.wand.fire.1a">Varita de Fuego</string>
+<string name="equipment.mainhand.wand.fire.2a">Varita de Fuego Adepta</string>
+<string name="equipment.mainhand.wand.fire.3a">Gran Varita de Fuego</string>
+<string name="equipment.mainhand.wand.fire.4a">Varita de Fuego Maestra</string>
 
+<string name="equipment.mainhand.wand.ice.1a">Varita de Escarcha</string>
+<string name="equipment.mainhand.wand.ice.2a">Varita de Escarcha Adepta</string>
+<string name="equipment.mainhand.wand.ice.3a">Gran Varita de Escarcha</string>
+<string name="equipment.mainhand.wand.ice.4a">Varita de Escarcha Maestra</string>
 
-	<string name="equipment.twohanded.daggers.1a">Dagas Dobles</string>
-	<string name="equipment.twohanded.daggers.2a">Dagas Pesadas</string>
-	<string name="equipment.twohanded.daggers.3a">Dagas Curvadas</string>
-	<string name="equipment.twohanded.daggers.4a">Dagas Grandiosas</string>
-
-	<string name="equipment.twohanded.maul.1a">Mazo de Madera</string>
-	<string name="equipment.twohanded.maul.2a">Mazo de Batalla</string>
-	<string name="equipment.twohanded.maul.3a">Mazo de Guerra</string>
-	<string name="equipment.twohanded.maul.4a">Mazo Titánico</string>
-
-	<string name="equipment.twohanded.greataxe.1a">Gran Cuchilla</string>
-	<string name="equipment.twohanded.greataxe.2a">Gran Hacha</string>
-	<string name="equipment.twohanded.greataxe.3a">Gran Hacha Pesada</string>
-	<string name="equipment.twohanded.greataxe.4a">Gran Hacha del Conquistador</string>
-
-	<string name="equipment.twohanded.shortbow.1a">Arco Corto</string>
-	<string name="equipment.twohanded.shortbow.2a">Arco Recurvado</string>
-	<string name="equipment.twohanded.shortbow.3a">Arco Elfo</string>
-	<string name="equipment.twohanded.shortbow.4a">Arco de Madera de Dragón</string>
-
-	<string name="equipment.twohanded.longbow.1a">Arco Largo</string>
-	<string name="equipment.twohanded.longbow.2a">Arco de Guerra</string>
-	<string name="equipment.twohanded.longbow.3a">Arco Imperial</string>
-	<string name="equipment.twohanded.longbow.4a">Arco de Hueso de Dragón</string>
-
-	<string name="equipment.twohanded.crossbow.1a">Ballesta</string>
-	<string name="equipment.twohanded.crossbow.2a">Ballesta Pesada</string>
-	<string name="equipment.twohanded.crossbow.3a">Ballesta Imperial</string>
-	<string name="equipment.twohanded.crossbow.4a">Ballesta Dorada</string>
+<string name="equipment.mainhand.wand.lightning.1a">Varita de Relámpago</string>
+<string name="equipment.mainhand.wand.lightning.2a">Varita de Relámpago Adepta</string>
+<string name="equipment.mainhand.wand.lightning.3a">Gran Varita de Relámpago</string>
+<string name="equipment.mainhand.wand.lightning.4a">Varita de Relámpago Maestra</string>
 
 
-	<string name="equipment.twohanded.staff.fire.1a">Bastón de Fuego</string>
-	<string name="equipment.twohanded.staff.fire.2a">Bastón de Fuego Adepto</string>
-	<string name="equipment.twohanded.staff.fire.3a">Gran Bastón de Fuego</string>
-	<string name="equipment.twohanded.staff.fire.4a">Bastón de Fuego Maestro</string>
+<string name="equipment.offhand.dirk.1a">Daga de Hierro</string>
+<string name="equipment.offhand.dirk.2a">Daga de Acero</string>
+<string name="equipment.offhand.dirk.3a">Kris Ritual</string>
+<string name="equipment.offhand.dirk.4a">Kris Dorado</string>
 
-	<string name="equipment.twohanded.staff.ice.1a">Bastón de Escarcha</string>
-	<string name="equipment.twohanded.staff.ice.2a">Bastón de Escarcha Adepto</string>
-	<string name="equipment.twohanded.staff.ice.3a">Gran Bastón de Escarcha</string>
-	<string name="equipment.twohanded.staff.ice.4a">Bastón de Escarcha Maestro</string>
+<string name="equipment.offhand.shield.1a">Escudo de Madera</string>
+<string name="equipment.offhand.shield.2a">Escudo Redondo</string>
+<string name="equipment.offhand.shield.3a">Escudo de Calor</string>
+<string name="equipment.offhand.shield.4a">Escudo Decorado</string>
 
-	<string name="equipment.twohanded.staff.lightning.1a">Bastón de Relámpago</string>
-	<string name="equipment.twohanded.staff.lightning.2a">Bastón de Relámpago Adepto</string>
-	<string name="equipment.twohanded.staff.lightning.3a">Gran Bastón de Relámpago</string>
-	<string name="equipment.twohanded.staff.lightning.4a">Bastón de Relámpago Maestro</string>
+<string name="equipment.offhand.crossbow.1a">Ballesta de Mano</string>
+<string name="equipment.offhand.crossbow.2a">Ballesta de Mano</string>
+<string name="equipment.offhand.crossbow.3a">Ballesta de Mano Noble</string>
+<string name="equipment.offhand.crossbow.4a">Ballesta de Mano Dorada</string>
+
+<string name="equipment.offhand.tome.fire.1a">Tomo de Fuego</string>
+<string name="equipment.offhand.tome.fire.2a">Tomo de Fuego Adepto</string>
+<string name="equipment.offhand.tome.fire.3a">Gran Tomo de Fuego</string>
+<string name="equipment.offhand.tome.fire.4a">Tomo de Fuego Maestro</string>
+
+<string name="equipment.offhand.tome.ice.1a">Tomo de Escarcha</string>
+<string name="equipment.offhand.tome.ice.2a">Tomo de Escarcha Adepto</string>
+<string name="equipment.offhand.tome.ice.3a">Gran Tomo de Escarcha</string>
+<string name="equipment.offhand.tome.ice.4a">Tomo de Escarcha Maestro</string>
+
+<string name="equipment.offhand.tome.lightning.1a">Tomo de Relámpago</string>
+<string name="equipment.offhand.tome.lightning.2a">Tomo de Relámpago Adepto</string>
+<string name="equipment.offhand.tome.lightning.3a">Gran Tomo de Relámpago</string>
+<string name="equipment.offhand.tome.lightning.4a">Tomo de Relámpago Maestro</string>
 
 
+<string name="equipment.twohanded.daggers.1a">Dagas Dobles</string>
+<string name="equipment.twohanded.daggers.2a">Dagas Pesadas</string>
+<string name="equipment.twohanded.daggers.3a">Dagas Curvadas</string>
+<string name="equipment.twohanded.daggers.4a">Dagas Grandiosas</string>
+
+<string name="equipment.twohanded.maul.1a">Mazo de Madera</string>
+<string name="equipment.twohanded.maul.2a">Mazo de Batalla</string>
+<string name="equipment.twohanded.maul.3a">Mazo de Guerra</string>
+<string name="equipment.twohanded.maul.4a">Mazo Titánico</string>
+
+<string name="equipment.twohanded.greataxe.1a">Gran Cuchilla</string>
+<string name="equipment.twohanded.greataxe.2a">Gran Hacha</string>
+<string name="equipment.twohanded.greataxe.3a">Gran Hacha Pesada</string>
+<string name="equipment.twohanded.greataxe.4a">Gran Hacha del Conquistador</string>
+
+<string name="equipment.twohanded.shortbow.1a">Arco Corto</string>
+<string name="equipment.twohanded.shortbow.2a">Arco Recurvado</string>
+<string name="equipment.twohanded.shortbow.3a">Arco Elfo</string>
+<string name="equipment.twohanded.shortbow.4a">Arco de Madera de Dragón</string>
+
+<string name="equipment.twohanded.longbow.1a">Arco Largo</string>
+<string name="equipment.twohanded.longbow.2a">Arco de Guerra</string>
+<string name="equipment.twohanded.longbow.3a">Arco Imperial</string>
+<string name="equipment.twohanded.longbow.4a">Arco de Hueso de Dragón</string>
+
+<string name="equipment.twohanded.crossbow.1a">Ballesta</string>
+<string name="equipment.twohanded.crossbow.2a">Ballesta Pesada</string>
+<string name="equipment.twohanded.crossbow.3a">Ballesta Imperial</string>
+<string name="equipment.twohanded.crossbow.4a">Ballesta Dorada</string>
+
+
+<string name="equipment.twohanded.staff.fire.1a">Bastón de Fuego</string>
+<string name="equipment.twohanded.staff.fire.2a">Bastón de Fuego Adepto</string>
+<string name="equipment.twohanded.staff.fire.3a">Gran Bastón de Fuego</string>
+<string name="equipment.twohanded.staff.fire.4a">Bastón de Fuego Maestro</string>
+
+<string name="equipment.twohanded.staff.ice.1a">Bastón de Escarcha</string>
+<string name="equipment.twohanded.staff.ice.2a">Bastón de Escarcha Adepto</string>
+<string name="equipment.twohanded.staff.ice.3a">Gran Bastón de Escarcha</string>
+<string name="equipment.twohanded.staff.ice.4a">Bastón de Escarcha Maestro</string>
+
+<string name="equipment.twohanded.staff.lightning.1a">Bastón de Relámpago</string>
+<string name="equipment.twohanded.staff.lightning.2a">Bastón de Relámpago Adepto</string>
+<string name="equipment.twohanded.staff.lightning.3a">Gran Bastón de Relámpago</string>
+<string name="equipment.twohanded.staff.lightning.4a">Bastón de Relámpago Maestro</string>
 
 
 
-	<string name="equipment.chest.str.1a">Coraza</string>
-	<string name="equipment.chest.str.2a">Placa Pesada</string>
-	<string name="equipment.chest.str.3a">Placa Completa</string>
-	<string name="equipment.chest.str.4a">Placa de Cruzado</string>
-	<string name="equipment.chest.dex.1a">Jubón de Cuero</string>
-	<string name="equipment.chest.dex.2a">Armadura de Cuero</string>
-	<string name="equipment.chest.dex.3a">Cuero Tachonado</string>
-	<string name="equipment.chest.dex.4a">Brigantina de Escamas</string>
-	<string name="equipment.chest.int.1a">Túnica Simple</string>
-	<string name="equipment.chest.int.2a">Vestimenta de Seda</string>
-	<string name="equipment.chest.int.3a">Túnica Dorada</string>
-	<string name="equipment.chest.int.4a">Túnica Grandiosa</string>
 
-	<string name="equipment.head.str.1a">Casco de Hierro</string>
-	<string name="equipment.head.str.2a">Casco de Acero</string>
-	<string name="equipment.head.str.3a">Gran Yelmo</string>
-	<string name="equipment.head.str.4a">Sallet de Cruzado</string>
-	<string name="equipment.head.dex.1a">Gorro de Tela</string>
-	<string name="equipment.head.dex.1b">Máscara Simple</string>
-	<string name="equipment.head.dex.2a">Capucha de Cuero</string>
-	<string name="equipment.head.dex.2b">Máscara de Bandido</string>
-	<string name="equipment.head.dex.2c">Máscara de Bandido</string>
-	<string name="equipment.head.dex.3a">Capucha Elfa</string>
-	<string name="equipment.head.dex.3b">Bandana</string>
-	<string name="equipment.head.dex.3c">Gorro con Plumas</string>
-	<string name="equipment.head.dex.4a">Capucha Oscura</string>
+
+<string name="equipment.chest.str.1a">Coraza</string>
+<string name="equipment.chest.str.2a">Placa Pesada</string>
+<string name="equipment.chest.str.3a">Placa Completa</string>
+<string name="equipment.chest.str.4a">Placa de Cruzado</string>
+<string name="equipment.chest.dex.1a">Jubón de Cuero</string>
+<string name="equipment.chest.dex.2a">Armadura de Cuero</string>
+<string name="equipment.chest.dex.3a">Cuero Tachonado</string>
+<string name="equipment.chest.dex.4a">Brigantina de Escamas</string>
+<string name="equipment.chest.int.1a">Túnica Simple</string>
+<string name="equipment.chest.int.2a">Vestimenta de Seda</string>
+<string name="equipment.chest.int.3a">Túnica Dorada</string>
+<string name="equipment.chest.int.4a">Túnica Grandiosa</string>
+
+<string name="equipment.head.str.1a">Casco de Hierro</string>
+<string name="equipment.head.str.2a">Casco de Acero</string>
+<string name="equipment.head.str.3a">Gran Yelmo</string>
+<string name="equipment.head.str.4a">Sallet de Cruzado</string>
+<string name="equipment.head.dex.1a">Gorro de Tela</string>
+<string name="equipment.head.dex.1b">Máscara Simple</string>
+<string name="equipment.head.dex.2a">Capucha de Cuero</string>
+<string name="equipment.head.dex.2b">Máscara de Bandido</string>
+<string name="equipment.head.dex.2c">Máscara de Bandido</string>
+<string name="equipment.head.dex.3a">Capucha Elfa</string>
+<string name="equipment.head.dex.3b">Bandana</string>
+<string name="equipment.head.dex.3c">Gorro con Plumas</string>
+<string name="equipment.head.dex.4a">Capucha Oscura</string>
 	
-	<string name="equipment.head.int.1a">Gorro Simple</string>
-	<string name="equipment.head.int.1b">Aro Simple</string>
-	<string name="equipment.head.int.2a">Sombrero de Aprendiz</string>
-	<string name="equipment.head.int.2b">Aro de Plata</string>
-	<string name="equipment.head.int.3a">Sombrero Adepto</string>
-	<string name="equipment.head.int.3b">Aro con Joyas</string>
-	<string name="equipment.head.int.4a">Gran Sombrero</string>
-	<string name="equipment.head.int.4b">Aro Dorado</string>
+<string name="equipment.head.int.1a">Gorro Simple</string>
+<string name="equipment.head.int.1b">Aro Simple</string>
+<string name="equipment.head.int.2a">Sombrero de Aprendiz</string>
+<string name="equipment.head.int.2b">Aro de Plata</string>
+<string name="equipment.head.int.3a">Sombrero Adepto</string>
+<string name="equipment.head.int.3b">Aro con Joyas</string>
+<string name="equipment.head.int.4a">Gran Sombrero</string>
+<string name="equipment.head.int.4b">Aro Dorado</string>
 
-	<string name="equipment.hands.str.1a">Guanteletes de Hierro</string>
-	<string name="equipment.hands.str.2a">Guanteletes Placas</string>
-	<string name="equipment.hands.str.3a">Guanteletes Dorados</string>
-	<string name="equipment.hands.str.4a">Guanteletes Dorados</string>
-	<string name="equipment.hands.dex.1a">Brazales de Cuero</string>
-	<string name="equipment.hands.dex.2a">Brazales Tachonados</string>
-	<string name="equipment.hands.dex.3a">Brazales Nobles</string>
-	<string name="equipment.hands.dex.4a">Brazales de Escamas de Dragón</string>
-	<string name="equipment.hands.int.1a">Guantes de Tela</string>
-	<string name="equipment.hands.int.2a">Guantes de Terciopelo</string>
-	<string name="equipment.hands.int.3a">Guantes Ornamentados</string>
-	<string name="equipment.hands.int.4a">Guantes Opulentos</string>
+<string name="equipment.hands.str.1a">Guanteletes de Hierro</string>
+<string name="equipment.hands.str.2a">Guanteletes Placas</string>
+<string name="equipment.hands.str.3a">Guanteletes Dorados</string>
+<string name="equipment.hands.str.4a">Guanteletes Dorados</string>
+<string name="equipment.hands.dex.1a">Brazales de Cuero</string>
+<string name="equipment.hands.dex.2a">Brazales Tachonados</string>
+<string name="equipment.hands.dex.3a">Brazales Nobles</string>
+<string name="equipment.hands.dex.4a">Brazales de Escamas de Dragón</string>
+<string name="equipment.hands.int.1a">Guantes de Tela</string>
+<string name="equipment.hands.int.2a">Guantes de Terciopelo</string>
+<string name="equipment.hands.int.3a">Guantes Ornamentados</string>
+<string name="equipment.hands.int.4a">Guantes Opulentos</string>
 
-	<string name="equipment.feet.str.1a">Grebas de Hierro</string>
-	<string name="equipment.feet.str.2a">Grebas de Placas</string>
-	<string name="equipment.feet.str.3a">Grebas Imperiales</string>
-	<string name="equipment.feet.str.4a">Grebas de Hueso de Dragón</string>
-	<string name="equipment.feet.dex.1a">Botas de Piel</string>
-	<string name="equipment.feet.dex.2a">Botas de Cuero</string>
-	<string name="equipment.feet.dex.3a">Botas Nobles</string>
-	<string name="equipment.feet.dex.4a">Botas Flamboyantes</string>
-	<string name="equipment.feet.int.1a">Zapatillas de Tela</string>
-	<string name="equipment.feet.int.2a">Zapatillas de Terciopelo</string>
-	<string name="equipment.feet.int.3a">Zapatillas Ornamentadas</string>
-	<string name="equipment.feet.int.4a">Zapatillas Reales</string>
+<string name="equipment.feet.str.1a">Grebas de Hierro</string>
+<string name="equipment.feet.str.2a">Grebas de Placas</string>
+<string name="equipment.feet.str.3a">Grebas Imperiales</string>
+<string name="equipment.feet.str.4a">Grebas de Hueso de Dragón</string>
+<string name="equipment.feet.dex.1a">Botas de Piel</string>
+<string name="equipment.feet.dex.2a">Botas de Cuero</string>
+<string name="equipment.feet.dex.3a">Botas Nobles</string>
+<string name="equipment.feet.dex.4a">Botas Flamboyantes</string>
+<string name="equipment.feet.int.1a">Zapatillas de Tela</string>
+<string name="equipment.feet.int.2a">Zapatillas de Terciopelo</string>
+<string name="equipment.feet.int.3a">Zapatillas Ornamentadas</string>
+<string name="equipment.feet.int.4a">Zapatillas Reales</string>
 
-	<string name="equipment.back.2a">Capa</string>
-	<string name="equipment.back.2b">Manto</string>
-	<string name="equipment.back.4a">Capa Regia</string>
-	<string name="equipment.back.4b">Manto Grandioso</string>
+<string name="equipment.back.2a">Capa</string>
+<string name="equipment.back.2b">Manto</string>
+<string name="equipment.back.4a">Capa Regia</string>
+<string name="equipment.back.4b">Manto Grandioso</string>
 
 
 </lang>

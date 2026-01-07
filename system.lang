@@ -1,0 +1,1792 @@
+<lang name="Spanish" min-size="5">
+
+	<string name="skill.tag.weapon">\cffdfb0Arma\d</string>
+	<string name="skill.tag.spell">\cffdfb0Hechizo\d</string>
+	<string name="skill.tag.passive">\cffdfb0Pasivo\d</string>
+	<string name="skill.tag.ranged">\cffdfb0A distancia\d</string>
+	<string name="skill.tag.melee">\cffdfb0Cuerpo a cuerpo\d</string>
+	<string name="skill.tag.physical">\cffdfb0Físico\d</string>
+	<string name="skill.tag.arcane">\cffdfb0Arcano\d</string>
+	<string name="skill.tag.bow">\cffdfb0Arco\d</string>
+	<string name="skill.tag.fire">\cffdfb0Fuego\d</string>
+	<string name="skill.tag.ice">\cffdfb0Hielo\d</string>
+	<string name="skill.tag.lightning">\cffdfb0Rayo\d</string>
+	<string name="skill.tag.poison">\cffdfb0Veneno\d</string>
+
+
+	<!-- Menu -->
+	<string name="menu.accept">Aceptar</string>
+	<string name="menu.yes">Sí</string>
+	<string name="menu.no">No</string>
+	<string name="menu.ok">Ok</string>
+	<string name="menu.cancel">Cancelar</string>
+	<string name="menu.back">Atrás</string>
+	<string name="menu.cost">\"icn-money" %amount%</string>
+
+	<string name="menu.nav.select">Seleccionar</string>
+	<string name="menu.nav.create">Crear</string>
+	<string name="menu.nav.refresh">Actualizar</string>
+	<string name="menu.nav.start">Iniciar</string>
+	<string name="menu.nav.ready">Listo</string>
+	<string name="menu.nav.unready">No listo</string>
+	<string name="menu.nav.ngp+">NGP+</string>
+	<string name="menu.nav.ngp-">NGP-</string>
+	<string name="menu.nav.bind">Vincular</string>
+	<string name="menu.nav.save">Guardar</string>
+	<string name="menu.nav.revert">Revertir</string>
+	<string name="menu.nav.reset">Restablecer</string>
+	<string name="menu.nav.delete">Eliminar</string>
+	<string name="menu.nav.compare">Comparar</string>
+	<string name="menu.nav.unequip">Desequipar</string>
+	<string name="menu.nav.equip">Equipar</string>
+	<string name="menu.nav.compare">Comparar</string>
+	<string name="menu.nav.destroy">Destruir</string>
+	<string name="menu.nav.pan">Mover</string>
+	<string name="menu.nav.zoom_in">Acercar</string>
+	<string name="menu.nav.zoom_out">Alejar</string>
+	<string name="menu.nav.buy">Comprar</string>
+	<string name="menu.nav.apply">Aplicar</string>
+	<string name="menu.nav.revert">Revertir</string>
+	<string name="menu.nav.prev_class">Clase Anterior</string>
+	<string name="menu.nav.next_class">Siguiente Clase</string>
+	<string name="menu.nav.random_name">Nombre Aleatorio</string>
+	<string name="menu.nav.test_voice">Probar Voz</string>
+	<string name="menu.nav.random_appear">Apariencia Aleatoria</string>
+	<string name="menu.nav.back_town">Volver al Pueblo</string>
+	<string name="menu.nav.new_save">Nuevo Guardado</string>
+	<string name="menu.nav.stash_config">Configuración del Alijo</string>
+	<string name="menu.nav.switch">Cambiar</string>
+	<string name="menu.nav.new_char">Nuevo Personaje</string>
+	<string name="menu.nav.deposit">Depositar</string>
+	<string name="menu.nav.withdraw">Retirar</string>
+	<string name="menu.nav.deposit_to">Depositar en '%to%'</string>
+	<string name="menu.nav.rename">Renombrar</string>
+	<string name="menu.nav.link_item">Vincular Objeto</string>
+	<string name="menu.nav.amnt+">Cantidad+</string>
+	<string name="menu.nav.amnt-">Cantidad-</string>
+	<string name="menu.nav.reroll">Repetir</string>
+
+
+	<string name="misc.timeletters.hours">h</string>
+	<string name="misc.timeletters.minutes">m</string>
+	<string name="misc.timeletters.seconds">s</string>
+	<string name="misc.distletters.kilometer">km</string>
+	<string name="misc.distletters.meter">m</string>
+	<string name="misc.amntletters.thousand">k</string>
+	<string name="misc.amntletters.million">m</string>
+	<string name="misc.amntletters.billion">b</string>
+	<string name="misc.amntletters.trillion">t</string>
+
+
+	<string name="misc.unknown">Desconocido</string>
+	<string name="misc.locked">Bloqueado</string>
+	<string name="misc.hold">Mantener</string>
+
+	<string name="menu.dead.died_title">¡Has muerto!</string>
+	<string name="menu.dead.died_text">¿Volver al pueblo?</string>
+
+	<string name="menu.class.paladin">Paladín</string>
+	<string name="menu.class.ranger">Explorador</string>
+	<string name="menu.class.rogue">Pícaro</string>
+	<string name="menu.class.wizard">Mago</string>
+	<string name="menu.class.warlock">Brujo</string>
+	<string name="menu.class.sorcerer">Hechicero</string>
+	<string name="menu.class.warrior">Guerrero</string>
+
+	<string name="menu.class.paladin.description">Un campeón justo que defiende la ley y el orden con pura fuerza y firme creencia.</string>
+	<string name="menu.class.ranger.description">Un cazador nato en sintonía con los bosques que puede aprovechar los poderes de la naturaleza.</string>
+	<string name="menu.class.rogue.description">Un bribón que utiliza agilidad innata y tácticas astutas para superar a sus enemigos.</string>
+	<string name="menu.class.wizard.description">Un hábil manejador de lo arcano que puede devastar a sus oponentes con sus poderes mágicos.</string>
+	<string name="menu.class.warlock.description">Un practicante de las artes oscuras que se especializa en manipular las almas de sus adversarios.</string>
+	<string name="menu.class.sorcerer.description">Un maestro de las artes que puede devastar a sus oponentes con fuerzas elementales.</string>
+	<string name="menu.class.warrior.description">Un luchador cómodo con una amplia variedad de armas que puede mantenerse firme contra la mayoría de los enemigos.</string>
+
+
+
+	<string name="menu.colorslot.skin">Piel</string>
+	<string name="menu.colorslot.hair">Cabello</string>
+	<string name="menu.colorslot.shield_face">Cara del Escudo</string>
+	<string name="menu.colorslot.shield_trim">Borde del Escudo</string>
+	<string name="menu.colorslot.mace">Maza</string>
+	<string name="menu.colorslot.helmet">Casco</string>
+	<string name="menu.colorslot.helmet_trim">Borde del Casco</string>
+	<string name="menu.colorslot.breastplate">Coraza</string>
+	<string name="menu.colorslot.shoulder_trim">Borde del Hombro</string>
+	<string name="menu.colorslot.cape">Capa</string>
+	<string name="menu.colorslot.cape_trim">Borde de la Capa</string>
+	<string name="menu.colorslot.hood">Capucha</string>
+	<string name="menu.colorslot.coat">Abrigo</string>
+	<string name="menu.colorslot.scarf">Bufanda</string>
+	<string name="menu.colorslot.bow">Arco</string>
+	<string name="menu.colorslot.vambrace">Brazalete</string>
+	<string name="menu.colorslot.bandana">Bandana</string>
+	<string name="menu.colorslot.shirt">Camisa</string>
+	<string name="menu.colorslot.shoulder">Hombro</string>
+	<string name="menu.colorslot.hat">Sombrero</string>
+	<string name="menu.colorslot.robe">Túnica</string>
+	<string name="menu.colorslot.book">Libro</string>
+	<string name="menu.colorslot.crystal">Cristal</string>
+	<string name="menu.colorslot.staff">Bastón</string>
+	<string name="menu.colorslot.dagger">Daga</string>
+	<string name="menu.colorslot.dagger_hilt">Empuñadura de la Daga</string>
+	<string name="menu.colorslot.orb">Orbe</string>
+
+
+
+	<string name="menu.charcreate.class">Clase</string>
+	<string name="menu.charcreate.class.skills">Habilidades</string>
+	<string name="menu.charcreate.class.gear">Equipo inicial</string>
+	<string name="menu.charcreate.custom">Personalizar</string>
+
+	<string name="menu.charcreate.custom.features">Características</string>
+	<string name="menu.charcreate.custom.color">Color</string>
+	<string name="menu.charcreate.custom.voice">Voz</string>
+	<string name="menu.charcreate.custom.hair">Cabello</string>
+	<string name="menu.charcreate.custom.eyes">Ojos</string>
+	<string name="menu.charcreate.custom.nose">Nariz</string>
+	<string name="menu.charcreate.custom.mouth">Boca</string>
+	<string name="menu.charcreate.custom.skin">Piel</string>
+	<string name="menu.charcreate.custom.hair">Cabello</string>
+
+
+	<string name="menu.loadgame.charlevel">Nivel %level%</string>
+	<string name="menu.loadgame.charlevel_short">Nvl %level%</string>
+	<string name="menu.loadgame.ngplevel">ng+%ngp%</string>
+	<string name="menu.loadgame.run_resume">¿Te gustaría reanudar tu partida en '%name%'?</string>
+	<string name="menu.loadgame.run_noresume">No puedes reanudar tu partida actual en '%name%' ahora. ¿Abandonar?</string>
+	<string name="menu.loadgame.delete">¿Estás seguro de que quieres eliminar tu nivel %level% %class%, '%name%'?</string>
+
+
+	<string name="menu.guild.statistics">Estadísticas</string>
+	<string name="menu.guild.statistics.run">Esta partida</string>
+	<string name="menu.guild.statistics.char">Personaje</string>
+	<string name="menu.guild.statistics.total">Total</string>
+	<string name="menu.guild.accomplishments">Logros</string>
+	<string name="menu.guild.accomplishments.info">Las bonificaciones de recompensa se otorgan a todos tus personajes.</string>
+	<string name="menu.guild.accomplishments.awarded">Otorgado:</string>
+	<string name="menu.guild.itemiary">Trinkets</string>
+	<string name="menu.guild.itemiary.empty">Encuentra trinkets para llenar esta lista.</string>
+	<string name="menu.guild.titles">Títulos</string>
+	<string name="menu.guild.titles.info">Las bonificaciones de título se otorgan a todos tus personajes.</string>
+
+
+	<string name="menu.enchanter.no_equipment">No tienes nada equipado que pueda ser encantado.</string>
+	<string name="menu.enchanter.no_modifiers">No tienes encantamientos para aplicar, encuentra más planos.</string>
+	<string name="menu.enchanter.upgrade">Mejorar a %quality%</string>
+	<string name="menu.enchanter.enchant">Encantar</string>
+
+	<string name="menu.library.no_attunement">No tienes amuletos para sintonizar, encuentra más planos.</string>
+
+
+
+	<!-- Player Menu -->
+	<string name="menu.player.map">Mapa</string>
+	<string name="menu.player.char">Personaje</string>
+	<string name="menu.player.char.experience">Experiencia: %exp%/%expmax% (%prog%%)</string>
+	<string name="menu.player.char.level">Nivel %lvl%</string>
+	<string name="menu.player.char.level_cap">Límite de nivel: %lvl%</string>
+	<string name="menu.player.char.inventory">Inventario</string>
+	<string name="menu.player.char.trinkets">Trinkets</string>
+	<string name="menu.player.char.equipment">Equipo</string>
+	<string name="menu.player.char.equipment.destroy_confirm">¿Estás seguro de que quieres destruir el objeto '%name%'?</string>
+	<string name="menu.player.char.materials">Materiales</string>
+	<string name="menu.player.char.materials.run">Esta partida</string>
+	<string name="menu.player.char.materials.town">Pueblo</string>
+	<string name="menu.player.mods">Información</string>
+	<string name="menu.player.mods.skills">Habilidades</string>
+	<string name="menu.player.mods.stats">Estadísticas</string>
+	<string name="menu.player.mods.effects">Efectos</string>
+	<string name="menu.player.mods.stats.attributes">Atributos</string>
+	<string name="menu.player.mods.stats.pools">Reservas</string>
+	<string name="menu.player.mods.stats.protection">Defensa</string>
+	<string name="menu.player.mods.stats.utility">Misceláneo</string>
+	<string name="menu.player.mods.stats.attack">Armas</string>
+	<string name="menu.player.mods.stats.spell">Hechizos</string>
+	<string name="menu.player.mods.stats.penetration">Penetración</string>
+	<string name="menu.player.mods.stats.multiplier">Multiplicadores</string>
+	<string name="menu.player.mods.stats.resources">Recursos</string>
+
+	<string name="menu.player.mods.stats.source.weapon_mastery">Maestría de Armas</string>
+	<string name="menu.player.mods.stats.source.base">Base</string>
+	<string name="menu.player.mods.stats.source.picked">Seleccionado</string>
+	<string name="menu.player.mods.stats.source.elixir">Elixires</string>
+	<string name="menu.player.mods.stats.source.ngp">Nuevo Juego+ %num%</string>
+	<string name="menu.player.mods.stats.source.accomplishments">Logros</string>
+	<string name="menu.player.mods.stats.source.attributes">Atributos</string>
+	<string name="menu.player.mods.stats.source.shadow_curse">%num% Maldición de Sombra</string>
+	<string name="menu.player.mods.stats.source.locked">Bloqueado</string>
+
+
+
+
+
+	<string name="menu.player.mods.effects.shadow_curse.name">Maldición de Sombra</string>
+	<string name="menu.player.mods.effects.shadow_curse.desc">Reduce la armadura y las resistencias en %amnt-total%. %amnt-stack% por acumulación.</string>
+
+
+	<string name="menu.player.skills.currpoints">Puntos para gastar: %points%\"icn-skillpt"</string>
+	<string name="menu.player.skills.upgrade">Mejorar: %cost%\"icn-skillpt"</string>
+	<string name="menu.player.skills.required_skill">\nRequiere %c-highlight%%skill%\d</string>
+	<string name="menu.player.skills.blocker_skill">\nMutuamente excluyente con %c-highlight%%skill%\d</string>
+	<string name="menu.player.skills.required_skill_dis">\n%c-disabled%Requiere %skill%\d</string>
+	<string name="menu.player.skills.blocker_skill_dis">\n%c-disabled%Bloqueado por %skill%\d</string>
+
+	<string name="menu.player.attrib.currpoints">Puntos para gastar: %points%\"icn-attrpt"</string>
+	<string name="menu.player.attrib.upgrade">Mejorar: %cost%\"icn-attrpt"</string>
+
+
+
+	<string name="menu.attributes.primary">Primario</string>
+
+
+
+	<string name="menu.attributes.respec.title">Reasignar</string>
+	<string name="menu.attributes.respec">¿Te gustaría reasignar %points%\"icn-attrpt" por %cost%?</string>
+	<string name="menu.attributes.respec_cant_afford">No puedes permitirte reasignar %points%\"icn-attrpt" por %cost%</string>
+	<string name="menu.skills.respec">¿Te gustaría reasignar %points%\"icn-skillpt" por %cost%?</string>
+	<string name="menu.skills.respec_cant_afford">No puedes permitirte reasignar %points%\"icn-skillpt" por %cost%</string>
+
+
+	<string name="menu.char_custom.title">Personalizar Personaje</string>
+	<string name="menu.char_custom.rename">Introduce un nuevo nombre para tu personaje:</string>
+
+
+
+	<!-- Menú de Carga de Misión -->
+	<string name="menu.loadout.potion_warning">¡No tienes cargas de poción!</string>
+	<string name="menu.loadout.force_start_warning">¿Estás seguro de que quieres comenzar la misión antes de que todos estén listos?</string>
+	<string name="menu.loadout.starting_mission">Comenzando\n%mission%</string>
+	<string name="menu.loadout.starting_mission_from">Comenzando desde %name%\n%mission%</string>
+	<string name="menu.loadout.alterations">Alteraciones</string>
+	<string name="menu.loadout.numready">%ready%/%total% listos!</string>
+	<string name="menu.loadout.waiting_num">Esperando a %num% jugadores.</string>
+	<string name="menu.loadout.waiting_plrs">Esperando a %players%.</string>
+	<string name="menu.loadout.ngp">Nuevo Juego+ %ngp%</string>
+	<string name="menu.loadout.food">Comida </string>
+	<string name="menu.loadout.drinks">Bebidas </string>
+
+
+	<string name="menu.mission_end.completed">¡Misión Completada!</string>
+	<string name="menu.mission_end.failed">\cff0202¡Misión Fallida!</string>
+	<string name="menu.mission_end.aborted">\cffb508¡Misión Abortada!</string>
+	<string name="menu.mission_end.new_game_plus">¡Felicidades, derrotaste al Avatar de las sombras!\nEsto ha desbloqueado Nuevo Juego+ 1 para este personaje y ha aumentado el límite de nivel en 5. Nuevo Juego+ representa una mayor dificultad con mayores recompensas. El nivel de NG+ se puede elegir en la carga de misión.</string>
+
+	<string name="menu.mission_end.materials">Materiales</string>
+	<string name="menu.mission_end.stats">Estadísticas</string>
+
+	<string name="menu.mission_end.step.sent_back">Enviado de vuelta: </string>
+	<string name="menu.mission_end.step.picked_up">Recogido: </string>
+	<string name="menu.mission_end.step.valuables">Valiosos: </string>
+	<string name="menu.mission_end.step.trinkets.common">Amuletos Comunes: </string>
+	<string name="menu.mission_end.step.trinkets.uncommon">Amuletos Poco Comunes: </string>
+	<string name="menu.mission_end.step.trinkets.rare">Amuletos Raros: </string>
+	<string name="menu.mission_end.step.trinkets.epic">Amuletos Épicos: </string>
+	<string name="menu.mission_end.step.revive">"Donación" de resurrección (%rate%%): </string>
+	<string name="menu.mission_end.step.reward">Recompensa de misión: </string>
+
+	<string name="menu.player_stash.withdraw">Retirar</string>
+	<string name="menu.player_stash.deposit">Depositar</string>
+	<string name="menu.player_stash.new_tab">Nueva pestaña</string>
+	<string name="menu.player_stash.rename">Renombrar</string>
+	<string name="menu.player_stash.rename_tab">Introduce un nuevo nombre para tu pestaña:</string>
+	<string name="menu.player_stash.delete">Eliminar</string>
+	<string name="menu.player_stash.delete_tab">¿Estás seguro de que quieres eliminar la pestaña '%name%'?</string>
+	<string name="menu.player_stash.delete_tab_empty">La pestaña debe estar vacía antes de poder eliminarla.</string>
+	<string name="menu.player_stash.sorting">Ordenar:</string>
+	<string name="menu.player_stash.sorting.none">Ninguno</string>
+	<string name="menu.player_stash.sorting.ilvl">ilvl</string>
+	<string name="menu.player_stash.sorting.ilvl_rev">ilvl descendente</string>
+	<string name="menu.player_stash.sorting.attrib">Atributo</string>
+
+	<string name="menu.player_stash.hiding">Show:</string>
+	<string name="menu.player_stash.hiding.none">Todos</string>
+	<string name="menu.player_stash.hiding.unequippable">Equipables</string>
+	<string name="menu.player_stash.hiding.very_unequippable">Casi equipables</string>
+	<string name="menu.player_stash.hiding.irrelevant">Relevantes</string>
+
+
+
+	<!-- Menú Principal -->
+	<string name="mainmenu.continue">Continuar</string>
+	<string name="mainmenu.exitgame">Salir del Juego</string>
+	<string name="mainmenu.host">Anfitrión Multijugador</string>
+	<string name="mainmenu.switchchar">Cambiar Personaje</string>
+	<string name="mainmenu.online">En línea</string>
+	<string name="mainmenu.multiplayer">Multijugador</string>
+	<string name="mainmenu.singleplayer">Un jugador</string>
+	<string name="mainmenu.options">Opciones</string>
+	<string name="mainmenu.extras">Extras</string>
+	<string name="mainmenu.quit">Salir</string>
+	<string name="mainmenu.discord">Discord</string>
+	<string name="mainmenu.leave">Dejar el Juego</string>
+	<string name="mainmenu.playerlist">Lobby</string>
+	<string name="mainmenu.abandon">Abandonar Partida</string>
+	<string name="mainmenu.profiles">Perfiles de Guardado</string>
+	<string name="mainmenu.profiles.title">Elegir Perfil</string>
+	<string name="mainmenu.profiles.desc.delete">Delete profile.</string>
+	<string name="mainmenu.profiles.desc.rename">Renombrar perfil.</string>
+	<string name="mainmenu.profiles.desc.rename.prompt">Introduce un nuevo nombre para tu perfil:</string>
+	<string name="mainmenu.profiles.desc.mods">Habilitar modding y seleccionar mods en este perfil.</string>
+	<string name="mainmenu.profiles.desc.copy">Hacer una copia del perfil, posiblemente moviéndolo hacia o desde la nube.</string>
+	<string name="mainmenu.profiles.desc.select">Cambiar a este perfil.</string>
+	<string name="mainmenu.profiles.mods.title">Seleccionar Mods</string>
+
+	<string name="mainmenu.abandon.confirm">¿Estás seguro de que quieres abandonar la partida? Esto te devolverá al pueblo.</string>
+	<string name="mainmenu.exitgame.confirm">¿Estás seguro de que quieres salir del juego?</string>
+	<string name="mainmenu.exitgame.confirm_resume">¿Estás seguro de que quieres salir del juego? Podrás reanudar la partida en el futuro.</string>
+
+	<string name="mainmenu.profiles.mods.unpacked_warn">El mod no está empaquetado. Los mods no empaquetados desactivan el multijugador.</string>
+	<string name="mainmenu.profiles.mods.confirm">Habilitar mods en un perfil lo marcará permanentemente como modificado, esto no se puede deshacer.\n¿Estás seguro de que quieres continuar habilitando mods para el guardado '%name%'?</string>
+	<string name="mainmenu.profiles.mods.confirm_cloud">Habilitar mods en un perfil lo marcará permanentemente como modificado, esto no se puede deshacer.\n¿Estás seguro de que quieres continuar habilitando mods para el guardado en la nube '%name%'?</string>
+	<string name="mainmenu.profiles.delete.confirm">¿Estás seguro de que quieres eliminar el guardado '%name%'? Esto es permanente y no se puede deshacer.</string>
+	<string name="mainmenu.profiles.delete.confirm_cloud">¿Estás seguro de que quieres eliminar el guardado en la nube '%name%'? Esto es permanente y no se puede deshacer.</string>
+	<string name="mainmenu.profiles.copy.confirm">¿Dónde te gustaría hacer una copia del guardado '%name%'?</string>
+	<string name="mainmenu.profiles.copy.confirm_cloud">¿Dónde te gustaría hacer una copia del guardado en la nube '%name%'?</string>
+	<string name="mainmenu.profiles.new.confirm">¿Dónde te gustaría hacer un nuevo guardado?</string>
+	<string name="mainmenu.profiles.confirm.local">Localmente</string>
+	<string name="mainmenu.profiles.confirm.cloud">Steam Cloud</string>
+ 
+
+	<string name="mainmenu.host.privacy">¿Te gustaría abrir un lobby público abierto para cualquiera, o un lobby privado solo para tus amigos?</string>
+	<string name="mainmenu.host.privacy.public">Público</string>
+	<string name="mainmenu.host.privacy.private">Privado</string>
+
+
+	<string name="mainmenu.languages.restart-confirm">¡Tienes que reiniciar el juego después de cambiar tu idioma!</string>
+	<string name="mainmenu.serverlist.title">Lobbies</string>
+	<string name="mainmenu.serverlist.hide_highngp">Ocultar lobbies de alto nivel</string>
+	<string name="mainmenu.serverlist.join_highngp">¿Estás seguro de que quieres unirte a un lobby de New Game+ %lobbyngp%? Esto está un poco más allá de tu progreso y puedes encontrar desafíos y recompensas que podrían afectar tu experiencia prevista.</string>
+	<string name="mainmenu.serverlist.join_veryhighngp">¿Estás seguro de que quieres unirte a un lobby de New Game+ %lobbyngp%? Esto está mucho más allá de tu progreso, los desafíos aquí serán imposiblemente difíciles y las recompensas afectarán enormemente tu velocidad de progreso, de forma permanente.</string>
+	<string name="mainmenu.multiplayer.disabled">El multijugador no está disponible actualmente.</string>
+	<string name="mainmenu.multiplayer.connecting">Conectando...</string>
+	<string name="mainmenu.lobby.suffix">Lobby de %name%</string>
+	
+	
+	<string name="menu.cost">Coste</string>
+
+	<string name="building.apothecary.name">Boticario</string>
+	<string name="building.apothecary.desc1">Desbloquea mejoras para tu poción.</string>
+	<string name="building.apothecary.desc2">Desbloquea más mejoras para tu poción.</string>
+
+	<string name="building.architect.name">Arquitecto</string>
+	<string name="building.architect.desc1">Una casa para el arquitecto, te permite alterar aspectos de tus incursiones en la Ciudadela Oscura.</string>
+	<string name="building.architect.desc2">Desbloquea más efectos y reduce el costo de aplicar múltiples al mismo tiempo.</string>
+
+	<string name="building.blacksmith.name">Herrero</string>
+	<string name="building.blacksmith.desc1">Desbloquea mejoras para tu armadura y armas.</string>
+	<string name="building.blacksmith.desc2">Mejores mejoras para tu armadura y armas, y te permite mejorar piezas individuales de equipo.</string>
+	<string name="building.blacksmith.desc3">Mejores mejoras para tu armadura y armas, y mejoras de equipo más baratas.</string>
+
+	<string name="building.chapel.name">Capilla</string>
+	<string name="building.chapel.desc1">Una casa para dios, te permite elegir entre dos bendiciones para tus incursiones.\n\n-5% Costo de Resurrección</string>
+	<string name="building.chapel.desc2">Desbloquea dos bendiciones más.\n\n-5% Costo de Resurrección</string>
+	<string name="building.chapel.desc3">Desbloquea otra bendición.\n\n-5% Costo de Resurrección</string>
+	<string name="building.chapel.desc4">Te permite donar materiales libremente a la capilla, desbloquea otra bendición.\n\n-5% Costo de Resurrección</string>
+
+	<string name="building.enchanter.name">Encantador</string>
+	<string name="building.enchanter.desc1">Te permite modificar mágicamente tu equipo.\n\nDesbloquea planos para encantamientos.</string>
+	<string name="building.enchanter.desc2">Encantamientos más baratos\n\nDesbloquea planos raros para encantamientos.</string>
+
+	<string name="building.general_store.name">Tienda General</string>
+	<string name="building.general_store.desc1">Compra y vende equipo.</string>
+	<string name="building.general_store.desc2">Mejores precios y equipo de mayor nivel para la venta.</string>
+	<string name="building.general_store.desc3">Mejores precios y sin límite en el nivel del equipo.</string>
+
+	<string name="building.guild_hall.name">Sala del Gremio</string>
+	<string name="building.guild_hall.desc1">Mejora la ciudad, desbloquea más edificios.</string>
+	<string name="building.guild_hall.desc3">Mejora la ciudad, desbloquea más edificios.\n\nDesbloquea maestrías de clase.</string>
+
+	<string name="building.hunters_cabin.name">Cabaña de Cazadores</string>
+	<string name="building.hunters_cabin.desc1">Los escarabajos, lobos y jabalíes dejan caer escamas, pieles y carne. Proporcionando objetos valiosos y salud de las bestias.</string>
+	<string name="building.hunters_cabin.desc2">Más objetos valiosos y salud de las bestias.</string>
+
+	<string name="building.library.name">Biblioteca</string>
+	<string name="building.library.desc1">Desbloquea sintonizaciones de trinkets comunes. Cambia tu habilidad de combo.</string>
+	<string name="building.library.desc2">Desbloquea sintonizaciones de trinkets poco comunes.</string>
+	<string name="building.library.desc3">Desbloquea sintonizaciones de trinkets raros.</string>
+
+
+	<string name="building.magic_shop.name">Tienda de Magia</string>
+	<string name="building.magic_shop.desc1">Desbloquea mejoras mágicas.\n\nComienza incursiones con una esfera de habilidad.\n\nIntercambia trinkets por materiales al final de las incursiones.</string>
+	<string name="building.magic_shop.desc2">Desbloquea más mejoras mágicas.\n\nDesbloquea más esferas de habilidad para elegir.</string>
+	<string name="building.magic_shop.desc3">Desbloquea más mejoras mágicas.</string>
+
+	<string name="building.pyre.name">Pira</string>
+	<string name="building.pyre.desc1">-20% Ganancia de Maldición de Sombra\n\n+1 Eliminación de maldición de los braseros.</string>
+
+	<string name="building.tailor.name">Sastre</string>
+	<string name="building.tailor.desc1">No hace nada.</string>
+
+	<string name="building.tavern.name">Taberna</string>
+	<string name="building.tavern.desc1">Comienza incursiones con una bebida junto con la comida.\n\nDesbloquea planos para bebidas.</string>
+	<string name="building.tavern.desc2">Comienza incursiones con otra bebida.</string>
+
+	<string name="building.trading_post.name">Puesto de Comercio</string>
+	<string name="building.trading_post.desc1">Compra y vende madera.</string>
+	<string name="building.trading_post.desc2">Compra y vende piedra.\n\nMejora el precio de la madera.</string>
+	<string name="building.trading_post.desc3">Compra y vende hierro.\n\nMejora el precio de la madera y la piedra.</string>
+
+	<string name="building.training_grounds.name">Campo de Entrenamiento</string>
+	<string name="building.training_grounds.desc1">Entrena habilidades del jugador.\n\nDesbloquea mejoras de atletismo.</string>
+	<string name="building.training_grounds.desc2">Desbloquea más mejoras de atletismo.</string>
+	<string name="building.training_grounds.desc3">Desbloquea más mejoras de atletismo.\n\nDesbloquea maestrías de armas.</string>
+
+
+
+
+
+	<string name="building.tier">Nivel %tier%</string>
+	<string name="building.build.new">Construir nuevo</string>
+	<string name="building.build.upgrade">Mejorar a nivel %num%</string>
+
+	<string name="weapon_mastery.bonus.first">Añadir %add% de daño.</string>
+	<string name="weapon_mastery.bonus.curr">%curr% de daño. Añadir %add%</string>
+	<string name="weapon_mastery.bonus.shield.first">Añadir +%add%% bloqueo con escudo.</string>
+	<string name="weapon_mastery.bonus.shield.curr">+%curr%% bloqueo con escudo. Añadir +%add%%</string>
+
+	<string name="weapon_mastery.maces">Mazas</string>
+	<string name="weapon_mastery.swords">Espadas</string>
+	<string name="weapon_mastery.axes">Hachas</string>
+	<string name="weapon_mastery.daggers">Dagas</string>
+	<string name="weapon_mastery.shields">Escudos</string>
+	<string name="weapon_mastery.bows">Arcos</string>
+	<string name="weapon_mastery.crossbows">Ballestas</string>
+	<string name="weapon_mastery.wands">Varitas</string>
+	<string name="weapon_mastery.tomes">Tomos</string>
+	<string name="weapon_mastery.staffs">Bastones</string>
+
+
+	<string name="spell_mastery.bonus.first">Añadir %dmg% de daño y %mana% de coste de maná</string>
+	<string name="spell_mastery.bonus.curr">%dmg% de daño, %mana% de coste de maná</string>
+
+	<string name="spell_mastery.spells_all">Todos los Hechizos</string>
+	<string name="spell_mastery.spells_physical">\cffdfb0Hechizos Físicos\d</string>
+	<string name="spell_mastery.spells_fire">\cffdfb0Hechizos de Fuego\d</string>
+	<string name="spell_mastery.spells_ice">\cffdfb0Hechizos de Hielo\d</string>
+	<string name="spell_mastery.spells_lightning">\cffdfb0Hechizos de Rayo\d</string>
+	<string name="spell_mastery.spells_poison">\cffdfb0Hechizos de Veneno\d</string>
+	
+
+
+	<string name="architect.cost_mul">Multiplicador: %mul%</string>
+
+	<string name="architect.far_sight.name">Vista Lejana</string>
+	<string name="architect.far_sight.desc">El mapa está explorado.</string>
+	<string name="architect.way_gates.name">Portales</string>
+	<string name="architect.way_gates.desc">Viaja rápidamente entre puntos de interés.</string>
+	<string name="architect.toppled_towers.name">Torres Derrumbadas</string>
+	<string name="architect.toppled_towers.desc">Las torres están destruidas.</string>
+	<string name="architect.fewer_enemies.name">Defensas Débiles</string>
+	<string name="architect.fewer_enemies.desc">Menos enemigos en los niveles.</string>
+	<string name="architect.safe_corridors.name">Corredores Seguros</string>
+	<string name="architect.safe_corridors.desc">Las trampas en los corredores están desactivadas.</string>
+	<string name="architect.gentle_traps.name">Trampas Suaves</string>
+	<string name="architect.gentle_traps.desc">Las trampas infligen un 50% menos de daño.</string>
+	<string name="architect.fewer_elites.name">Entrenamiento Pobre</string>
+	<string name="architect.fewer_elites.desc">Menos enemigos élite en los niveles.</string>
+	<string name="architect.more_pyre.name">Llamas Justas</string>
+	<string name="architect.more_pyre.desc">Mayor probabilidad de encontrar una Pira.</string>
+	<string name="architect.more_treasury.name">Caza del Tesoro</string>
+	<string name="architect.more_treasury.desc">Mayor probabilidad de encontrar un Tesoro.</string>
+	<string name="architect.material_farmer.name">Manía de Materiales</string>
+	<string name="architect.material_farmer.desc">Reemplaza cofres de trinkets con alijos de recursos y pergaminos de experiencia con materiales.</string>
+	<string name="architect.insta_revive.name">Arreglo Rápido</string>
+	<string name="architect.insta_revive.desc">Reduce el tiempo para revivir a otros en multijugador a 0.</string>
+
+
+
+
+
+	<!-- Opciones -->
+	<string name="menu.unsaved_dialog">Hay cambios no guardados. ¿Quieres guardarlos?</string>
+
+	<string name="menu.o.game">Juego</string>
+	<string name="menu.o.graphics">Gráficos</string>
+	<string name="menu.o.sound">Sonido</string>
+	<string name="menu.o.ctrls">Controles</string>
+
+	<string name="menu.resume">Reanudar</string>
+	<string name="menu.off">Apagado</string>
+	<string name="menu.on">Encendido</string>
+	<string name="menu.none">Ninguno</string>
+	<string name="menu.all">Todos</string>
+	<string name="menu.low">Bajo</string>
+	<string name="menu.medium">Medio</string>
+	<string name="menu.high">Alto</string>
+	<string name="menu.defaults">Restablecer</string>
+	<string name="menu.defaults.help">Restablecer todas las configuraciones a sus valores predeterminados.</string>
+	<string name="menu.change">Cambiar</string>
+	<string name="menu.defaults_dialog">¿Restablecer todas las configuraciones a sus valores predeterminados?</string>
+
+	<!-- Opciones de Juego -->
+
+	<string name="menu.game.defaults_dialog">¿Restablecer todas las configuraciones del juego a sus valores predeterminados?</string>
+	<string name="g_language">Idioma</string>
+	<string name="g_language.help">Idioma de visualización.</string>
+	<string name="g_gore">Violencia</string>
+	<string name="g_gore.help">Mostrar sangre y violencia.</string>
+	<string name="ui_cursor_alpha">Transparencia del Cursor</string>
+	<string name="ui_cursor_alpha.help">Transparencia del cursor.</string>
+	<string name="ui_overlay_minimap_alpha">Transparencia del Minimapa Superpuesto</string>
+	<string name="ui_overlay_minimap_alpha.help">Transparencia del minimapa superpuesto.</string>
+	<string name="g_txt">Mensajes de Recogida</string>
+	<string name="g_txt.help">Mostrar mensajes de recogida de objetos.</string>
+	<string name="menu.crumb.options.game">Opciones</string>
+	<string name="menu.game.texts">Textos</string>
+	<string name="menu.game.texts.help">Alternar textos flotantes individuales.</string>
+	<string name="ui_hud_hpbars_enemy">Barras de Salud de Enemigos</string>
+	<string name="ui_hud_hpbars_enemy.help">Mostrar la salud de los enemigos.</string>
+	<string name="menu.game.show-damaged">Cuando Herido</string>
+
+	<string name="menu.game.hud.overlay.always.show">Mostrar Siempre la Superposición del HUD.</string>
+	<string name="menu.game.hud.overlay.always.show.tooltip">Muestra la hora y el oro.</string>
+
+	<string name="menu.game.loot.filter.all">Todos</string>
+	<string name="menu.game.loot.filter.self">Propios</string>
+	<string name="menu.game.loot.filter.others">Otros</string>
+
+	<!-- Textos de Opciones de Juego -->
+
+	<string name="menu.game.texts.defaults_dialog">¿Restablecer todos los textos flotantes a sus valores predeterminados?</string>
+	<string name="g_txt_plr_hurt">Jugador Herido</string>
+	<string name="g_txt_plr_hurt.help">Mostrar textos de daño al jugador.</string>
+	<string name="g_txt_enemy_hurt">Enemigo Herido</string>
+	<string name="g_txt_enemy_hurt.help">Mostrar textos de daño al enemigo.</string>
+	<string name="g_txt_plr_heal">Curación del Jugador</string>
+	<string name="g_txt_plr_heal.help">Mostrar textos de curación del jugador.</string>
+	<string name="g_txt_enemy_heal">Curación del Enemigo</string>
+	<string name="g_txt_enemy_heal.help">Mostrar textos de curación del enemigo.</string>
+	<string name="g_txt_enemy_immortal">ENEMIGO INMORTAL</string>
+	<string name="g_txt_enemy_immortal.help">Mostrar textos de daño inmortal del enemigo.</string>
+	<string name="g_txt_plr_armor">ARMADURA DEL JUGADOR</string>
+	<string name="g_txt_plr_armor.help">Mostrar textos de recogida de armadura del jugador.</string>
+	<string name="g_txt_plr_ammo">MUNICIÓN DEL JUGADOR</string>
+	<string name="g_txt_plr_ammo.help">Mostrar textos de recogida de munición del jugador.</string>
+	<string name="g_txt_pickup">RECOGIDA DEL JUGADOR</string>
+	<string name="g_txt_pickup.help">Mostrar textos de recogida del jugador.</string>
+
+	<string name="menu.automatic">Automático</string>
+	<string name="g_laser_sight">Guía de Apuntado</string>
+	<string name="g_laser_sight.help">Mostrar una línea delgada para ayudar a apuntar.</string>
+
+
+
+
+
+	<string name="g_screenshake">SACUDIDA DE PANTALLA</string>
+	<string name="g_screenshake.help">Controla la cantidad de sacudida de pantalla en el juego.</string>
+
+	<string name="ui_txt">Textos Flotantes</string>
+	<string name="ui_txt.help">Mostrar textos flotantes como números de daño o información de recogida.</string>
+
+	<string name="ui_speechbubble_alpha">TRANSPARENCIA DE BURBUJAS DE DIÁLOGO</string>
+	<string name="ui_speechbubble_alpha.help">Transparencia de las burbujas de diálogo.</string>
+
+	<string name="ui_cursor_health">Estadísticas del Cursor</string>
+	<string name="ui_cursor_health.help">Mostrar tu salud y maná actuales en la mira.</string>
+	<string name="ui_show_tutorials">Tutoriales</string>
+	<string name="ui_show_tutorials.help">Mostrar indicaciones de tutorial.</string>
+	<string name="ui_show_tutorials_important">Importante</string>
+
+	<string name="ui_minimap_alpha">Transparencia del Minimapa</string>
+	<string name="ui_minimap_alpha.help">Transparencia del minimapa superpuesto.</string>
+
+	<string name="ui_draw_plr_names">NOMBRES DE JUGADORES</string>
+	<string name="ui_draw_plr_names.help">Mostrar nombres de jugadores en multijugador.</string>
+	<string name="ui_draw_plr_names.onlytown">SOLO EN EL PUEBLO</string>
+	<string name="ui_draw_plr_names_real">NOMBRES REALES DE JUGADORES</string>
+	<string name="ui_draw_plr_names_real.help">Mostrar nombres reales de jugadores en lugar de nombres de héroes en multijugador.</string>
+
+	<string name="ui_txt_enemy_hurt_husk">Números de Daño Remoto</string>
+	<string name="ui_txt_enemy_hurt_husk.help">Mostrar el daño hecho a enemigos por otros jugadores.</string>
+	<string name="ui_txt_enemy_hurt_local">Números de Daño Local</string>
+	<string name="ui_txt_enemy_hurt_local.help">Mostrar el daño hecho a enemigos por ti.</string>
+
+	<string name="ui_hud_loot_filter.show_all">Mostrar Todo</string>
+	<string name="ui_hud_loot_filter.quest_only">Solo Misión</string>
+
+	<string name="ui_hud_loot_announce">Habilitar Registro de Botín</string>
+	<string name="ui_hud_loot_announce.help">Mostrar los objetos que se recogieron en la pantalla.</string>
+	<string name="ui_hud_loot_amount">Habilitar Cantidad</string>
+	<string name="ui_hud_loot_amount.help">Mostrar la cantidad de objetos.</string>
+	<string name="ui_hud_loot_announce_looter">Recolector</string>
+	<string name="ui_hud_loot_announce_looter.help">Filtrar de quién deseas mostrar las recogidas de objetos.</string>
+	<string name="ui_hud_loot_announce_threshold">Calidad Mínima para Mostrar</string>
+	<string name="ui_hud_loot_announce_threshold.help">No mostrar objetos por debajo de una cierta calidad.</string>
+
+	<!-- Opciones Gráficas -->
+
+	<string name="menu.graphics.defaults_dialog">¿Restablecer todas las configuraciones gráficas a sus valores predeterminados?</string>
+	<string name="v_resolution">Resolución</string>
+	<string name="v_resolution.help">Resolución de pantalla.</string>
+	<string name="bgfx_renderer">API de Renderizado</string>
+	<string name="bgfx_renderer.help">Qué renderizador usar.</string>
+	<string name="bgfx_renderer.gl">OpenGL</string>
+	<string name="bgfx_renderer.dx9">DirectX 9</string>
+	<string name="bgfx_renderer.dx11">DirectX 11</string>
+	<string name="v_fullscreen">Pantalla Completa</string>
+	<string name="v_fullscreen.help">Usar modo de pantalla completa.</string>
+	<string name="v_fullscreen.windowed">Sin Bordes</string>
+	<string name="v_vsync">VSync</string>
+	<string name="v_vsync.help">Habilitar sincronización vertical de pantalla.</string>
+	<string name="v_vsync.dynamic">Adaptativo</string>
+	<string name="v_fps_limit">Límite de FPS</string>
+	<string name="v_fps_limit.help">Limitar la tasa de fotogramas a una cantidad específica.</string>
+	<string name="r_smooth_scrolling">Desplazamiento Suave</string>
+	<string name="r_smooth_scrolling.help">Desplazar la cámara suavemente sobre la pantalla.</string>
+	<string name="r_hdr">Precisión de Iluminación Mejorada</string>
+	<string name="r_hdr.help">Reducir el banding de la iluminación.</string>
+	<string name="r_light_decal_proj">Proyección de Luz</string>
+	<string name="r_light_decal_proj.help">Proyectar luz en las paredes</string>
+	<string name="r_shadows">Sombras</string>
+	<string name="r_shadows.help">Usar sombras proyectadas.</string>
+	<string name="r_shadows.sun">Sol</string>
+	<string name="r_draw_xray">Rayos X</string>
+	<string name="r_draw_xray.help">Mostrar jugadores y enemigos detrás de las paredes.</string>
+	<string name="rg_brightness">Brillo</string>
+	<string name="rg_gamma">Gamma</string>
+	<string name="rg_contrast">Contraste</string>
+	<string name="rg_crt_curve">Curva CRT</string>
+	<string name="v_forced_aspectratio">Letterbox</string>
+	<string name="v_forced_aspect_ratio.help">Forzar relación de aspecto.</string>
+	<string name="v_forced_aspect_ratio">Relación de Aspecto</string>
+	<string name="rg_pixel_perfect">Renderizado Pixel Perfect</string>
+	<string name="rg_pixel_perfect.help">Da un aspecto más auténtico de baja resolución, pero puede causar tartamudeo.</string>
+	<string name="r_draw_glow">Brillo</string>
+	<string name="r_draw_glow.help">Mostrar brillo</string>
+	<string name="r_draw_bloom">Bloom</string>
+	<string name="r_draw_bloom.help">Mostrar bloom</string>
+	<string name="r_environmental_detail">Detalle Ambiental</string>
+	<string name="r_environmental_detail.help">Ocultar detalles ambientales.</string>
+	<string name="r_draw_color_grade">Gradación de Color</string>
+	<string name="r_draw_color_grade.help">Realizar gradación de color</string>
+
+	<!-- Opciones de Sonido -->
+
+	<string name="menu.sound.defaults_dialog">¿Restablecer todas las configuraciones de sonido a sus valores predeterminados?</string>
+	<string name="snd_volume">Maestro</string>
+	<string name="snd_volume_music">Música</string>
+	<string name="snd_volume_sfx">Efectos</string>
+	<string name="snd_volume_voice">Voz</string>
+	<string name="snd_volume_env">Entorno</string>
+	<string name="snd_volume_ui">Interfaz</string>
+
+	<!-- Opciones de Controles -->
+
+	<string name="menu.crumb.options.controls">Opciones</string>
+	<string name="menu.controls.defaults_dialog">¿Restablecer todos los controles para este jugador a sus valores predeterminados?</string>
+	<string name="menu.controls.player">Jugador</string>
+	<string name="menu.controls.player.help">El jugador para cambiar los controles.</string>
+
+	<string name="menu.controls.layout">Disposición de Controles</string>
+	<string name="menu.controls.layout.help">El esquema de control base para este jugador.</string>
+	<string name="menu.controls.layout.kbm">Teclado y Ratón</string>
+	<string name="menu.controls.layout.gp1">Gamepad 1</string>
+	<string name="menu.controls.layout.gp2">Gamepad 2</string>
+	<string name="menu.controls.layout.gp3">Gamepad 3</string>
+	<string name="menu.controls.layout.gp4">Gamepad 4</string>
+
+	<string name="menu.controls.move">Movimiento</string>
+	<string name="menu.controls.move.help">Qué usar para mover al jugador.</string>
+	<string name="menu.controls.move.keyboard">Teclado</string>
+	<string name="menu.controls.move.gp_left">Gamepad: STICK IZQUIERDO</string>
+	<string name="menu.controls.move.gp_right">Gamepad: STICK DERECHO</string>
+
+	<string name="menu.controls.aim">Apuntar</string>
+	<string name="menu.controls.aim.help">Qué usar para apuntar tu arma.</string>
+	<string name="menu.controls.aim.mouse">Ratón</string>
+	<string name="menu.controls.aim.gp_right">Gamepad: STICK DERECHO</string>
+	<string name="menu.controls.aim.gp_left">Gamepad: STICK IZQUIERDO</string>
+
+	<string name="menu.controls.custom">PERSONALIZADO</string>
+	<string name="menu.controls.up">ARRIBA</string>
+	<string name="menu.controls.down">ABAJO</string>
+	<string name="menu.controls.left">IZQUIERDA</string>
+	<string name="menu.controls.right">DERECHA</string>
+	<string name="menu.controls.back">ATRÁS</string>
+	<string name="menu.controls.attack">ATAQUE</string>
+	<string name="menu.controls.dash">DESLIZAR</string>
+	<string name="menu.controls.reload">RECARGAR</string>
+	<string name="menu.controls.use">USAR</string>
+
+	<string name="menu.controls.menu.up">MENÚ ARRIBA</string>
+	<string name="menu.controls.menu.down">MENÚ ABAJO</string>
+	<string name="menu.controls.menu.left">MENÚ IZQUIERDA</string>
+	<string name="menu.controls.menu.right">MENÚ DERECHA</string>
+	<string name="menu.controls.menu.forward">MENÚ ADELANTE</string>
+	<string name="menu.controls.menu.back">MENÚ ATRÁS</string>
+	<string name="menu.controls.menu.toggle">MENÚ ALTERNAR</string>
+	<string name="menu.controls.menu.chatall">CHAT</string>
+	<string name="menu.controls.menu.chatteam">CHAT DE EQUIPO</string>
+
+	<string name="menu.controls.mainhandattack">ARMA PRINCIPAL</string>
+	<string name="menu.controls.offhandattack">ARMA SECUNDARIA</string>
+	<string name="menu.controls.charge">DESLIZAR</string>
+	<string name="menu.controls.skill1">HABILIDAD 1</string>
+	<string name="menu.controls.skill2">HABILIDAD 2</string>
+	<string name="menu.controls.skill3">HABILIDAD 3</string>
+	<string name="menu.controls.skill4">HABILIDAD 4</string>
+	<string name="menu.controls.potion">POCIÓN</string>
+	<string name="menu.controls.playermenu">MENÚ DEL JUGADOR</string>
+	<string name="menu.controls.mapoverlay">MAPA SUPERPUESTO</string>
+	<string name="menu.controls.playermap">MAPA DEL JUGADOR</string>
+	<string name="menu.controls.guildhall">MENÚ DEL GREMIO</string>
+
+	<string name="menu.controls.actionmenu">MENÚ DE ACCIÓN</string>
+	<string name="menu.controls.contextmenu">MENÚ CONTEXTUAL</string>
+	<string name="menu.controls.menuadditional">MENÚ ADICIONAL</string>
+	<string name="menu.controls.menunexttab">SIGUIENTE PESTAÑA</string>
+	<string name="menu.controls.menuprevioustab">PESTAÑA ANTERIOR</string>
+	<string name="menu.controls.menunextsubtab">SIGUIENTE SUBPESTAÑA</string>
+	<string name="menu.controls.menuprevioussubtab">SUBPESTAÑA ANTERIOR</string>
+
+	<string name="menu.controls.menuup">MENÚ ARRIBA</string>
+	<string name="menu.controls.menudown">MENÚ ABAJO</string>
+	<string name="menu.controls.menuleft">MENÚ IZQUIERDA</string>
+	<string name="menu.controls.menuright">MENÚ DERECHA</string>
+	<string name="menu.controls.menuforward">MENÚ ADELANTE</string>
+	<string name="menu.controls.menuback">MENÚ ATRÁS</string>
+	<string name="menu.controls.menutoggle">ALTERNAR MENÚ</string>
+
+	<string name="menu.controls.move_y.axis1">MOVER ARRIBA</string>
+	<string name="menu.controls.move_y.axis2">MOVER ABAJO</string>
+	<string name="menu.controls.move_x.axis1">MOVER IZQUIERDA</string>
+	<string name="menu.controls.move_x.axis2">MOVER DERECHA</string>
+
+	<string name="menu.controls.menuchatall">CHAT</string>
+
+	<string name="menu.input.leftmouse">LMB</string>
+	<string name="menu.input.middlemouse">MMB</string>
+	<string name="menu.input.rightmouse">RMB</string>
+	<string name="menu.input.mousewheelup">DESPLAZAR ARRIBA</string>
+	<string name="menu.input.mousewheeldown">DESPLAZAR ABAJO</string>
+	<string name="menu.input.mousenum">RATÓN %num%</string>
+
+	<string name="menu.input.invert">Invertido</string>
+
+	<string name="menu.loading">Cargando</string>
+	<string name="menu.loading."></string>
+	<string name="menu.loading.setting_scenario">Cargando escenario</string>
+	<string name="menu.loading.loading_level">Cargando nivel</string>
+	<string name="menu.loading.start_level">Iniciando nivel</string>
+	<string name="menu.loading.wait_scenario_set">Esperando escenario cargado</string>
+	<string name="menu.loading.wait_loaded_level">Esperando nivel cargado</string>
+	<string name="menu.loading.wait_started_level">Esperando nivel iniciado</string>
+
+	<!-- Menú de Un Jugador -->
+
+	<string name="menu.startgame">Jugar</string>
+
+	<string name="tooltip.header.active.trinket">Activo</string>
+	<string name="tooltip.header.active.equipment">Equipado</string>
+	<string name="tooltip.header.blueprint">Plano</string>
+	<string name="tooltip.header.current">Actual</string>
+	<string name="tooltip.header.attuned">Sintonizado</string>
+	<string name="tooltip.equipment.ilvl">ilvl: %ilvl%</string>
+	<string name="tooltip.stats.required">req: </string>
+
+	<string name="blueprint.category.drink">Bebida de Taberna</string>
+	<string name="blueprint.category.food">Comida de Taberna</string>
+	<string name="blueprint.category.enchantment">Encantamiento de Equipo</string>
+	<string name="blueprint.category.trinket">Amuleto</string>
+	<string name="blueprint.category.dye">Tinte de Equipo</string>
+	<string name="blueprint.category.dye.cloth">Tinte de Tela</string>
+	<string name="blueprint.category.dye.metal">Tinte de Metal</string>
+	<string name="blueprint.category.dye.leather">Tinte de Cuero</string>
+	<string name="blueprint.category.dye.wood">Tinte de Madera</string>
+	<string name="blueprint.category.dye.gem">Tinte de Joya</string>
+
+
+	<string name="menu.reroll.question">¿Te gustaría volver a tirar tus elecciones y ganar %cost% Maldición de Sombra?\n\nHas usado %chrg-used%/%chrg-max% reintentos.</string>
+	<string name="menu.traveling_cook.givefood">El Cocinero Viajero te dio una porción de %buff%</string>
+	<string name="menu.traveling_monk.giveblessing">El Monje Viajero te otorgó los poderes de %buff%</string>
+	<string name="menu.shady_trader.get">Obtienes %amount%</string>
+	<string name="menu.shady_trader.lose">Pierdes %amount%</string>
+	<string name="menu.shady_trader.nothing">Nada</string>
+	<string name="menu.shady_trader.option">Opción %num%</string>
+	<string name="menu.shady_trader.trade">=== INTERCAMBIO ==></string>
+	<string name="menu.thunderbird.nothing">No tienes nada para enviar de vuelta al pueblo.</string>
+	<string name="menu.thunderbird.sendback">¿Te gustaría enviar\n%mats% al pueblo?</string>
+	<string name="menu.shadow_rift.cursecost">+%amount% Maldición de Sombra</string>
+	<string name="menu.shadow_rift.pick">Elige cualquier número de regalos:</string>
+	<string name="menu.shadow_rift.picked">Elegiste:</string>
+	<string name="menu.subclass.title">Promoción de Clase</string>
+	<string name="menu.subclass.skill.active">Activo</string>
+	<string name="menu.subclass.skill.passive">Pasivo</string>
+
+	<string name="menu.map.multiplayer_request_sent">Se envió una solicitud a %host-name% para iniciar el mapa.</string>
+	<string name="menu.map.multiplayer_request_got">%name% está pidiendo iniciar la misión %mission%.\nOtorga ilvl %ilvl% %quality% %slot% equipo.</string>
+
+
+
+	<string name="menu.imp.announce.1">¿Eh, fue eso un imp?</string>
+	<string name="menu.imp.announce.2">¡Un imp! Debe estar cerca.</string>
+	<string name="menu.imp.nothing">¡El imp no te dio nada!</string>
+	<string name="menu.imp.givemats">¡El imp te dio %mats%!</string>
+	<string name="menu.imp.sendbackmats">¡El imp envió tus %mats% al pueblo!</string>
+	<string name="menu.imp.remscurse">¡El imp curó %amount% de maldición de sombra!</string>
+	<string name="menu.imp.equipupgrade">¡El imp mejoró el nivel de tu %item% en %lvl% niveles!</string>
+	<string name="menu.imp.equipupgradequal">¡El imp mejoró la calidad de tu %item% a %quality%!</string>
+
+
+
+
+	<!-- Menú de Escenario -->
+	
+	<string name="menu.lobby.chat.namechanged">El nombre del lobby fue cambiado a: "%name%"</string>
+
+	<string name="menu.lobby.wait.hosting">Creando lobby...</string>
+	<string name="menu.lobby.wait.joining">Uniéndose al lobby...</string>
+	<string name="menu.lobby.title.hosting">Lobby: Anfitrión</string>
+	<string name="menu.lobby.title.joining">Lobby: Unido</string>
+
+	<string name="menu.notifier.lostconnection">Conexión perdida.</string>
+	<string name="menu.lobby.abort.prompt">¿Estás seguro de que quieres abortar el lobby?</string>
+	<string name="menu.lobby.leave.prompt">¿Estás seguro de que quieres dejar el lobby?</string>
+	<string name="menu.lobby.close_lobby">Cerrar Lobby</string>
+	<string name="menu.lobby.close_lobby.confirm">¿Estás seguro? Esto expulsará a cualquier jugador conectado a tu juego.</string>
+	<string name="menu.lobby.kick_player.confirm">¿Estás seguro de que quieres expulsar al jugador '%name%'?</string>
+
+	<string name="menu.lobby.chat.isjoined">%name% se ha unido.</string>
+	<string name="menu.lobby.chat.isleft">%name% se ha ido.</string>
+	<string name="menu.lobby.chat.iskicked">%name% ha sido expulsado.</string>
+	<string name="menu.lobby.chat.isready">%name% está listo.</string>
+	<string name="menu.lobby.chat.isunready">%name% ya no está listo.</string>
+
+	<string name="menu.lobby.chat.died">%name% mordió el polvo!</string>
+	<string name="menu.lobby.chat.revive">%revivee% fue revivido por %reviver%!</string>
+	<string name="menu.lobby.chat.revive.free">%revivee% vive de nuevo!</string>
+
+	<string name="menu.lobby.info.maxplayers.server">Máximo de Jugadores del Servidor:</string>
+
+	<string name="menu.lobby.ready">Listo</string>
+	<string name="menu.lobby.unready">No Listo</string>
+	<string name="menu.lobby.start">Iniciar</string>
+	<string name="menu.lobby.start.wait">Forzar\nInicio</string>
+	<string name="menu.lobby.switchcount">%a%/%b% Activo</string>
+	<string name="menu.lobby.readycount">%a%/%b% Listo</string>
+	<string name="menu.lobby.private">Privado</string>
+	<string name="menu.lobby.abort">Abortar</string>
+	<string name="menu.lobby.leave">Salir</string>
+
+	<string name="menu.lobby.title">Juego Anfitrión</string>
+	<string name="menu.lobby.switches">Interruptores</string>
+	<string name="menu.lobby.resmods">Modificadores</string>
+
+	<string name="menu.lobby.info.town_ngp">Ciudad Nueva Partida+ %ngp%</string>
+	
+	<string name="menu.mplayer.clobby">Anfitrión del Juego</string>
+	<string name="menu.mplayer.slist">Lista de Servidores</string>
+
+	<string name="menu.serverlist.title">Lista de Servidores</string>
+	<string name="menu.serverlist.refresh">Actualizar</string>
+
+
+	<string name="exit.notall">¡Debes reunir a tu grupo antes de aventurarte!</string>
+	<string name="character.stat.level">Nivel %level%</string>
+
+	
+	
+	
+	
+	<!-- estadísticas -->
+	<string name="menu.stats.cat.skill_dmg">Daño de Habilidad</string>
+	<string name="menu.stats.cat.combat">Combate</string>
+	<string name="menu.stats.cat.economy">Economía</string>
+	<string name="menu.stats.cat.adventuring">Aventuras</string>
+
+
+	<!-- Información del Objeto Tooltip -->
+
+	<string name="item.info.tooltip.requirement.str">\"icn-str" %val%</string>
+	<string name="item.info.tooltip.requirement.dex">\"icn-dex" %val%</string>
+	<string name="item.info.tooltip.requirement.int">\"icn-int" %val%</string>
+	<string name="item.info.tooltip.requirement.foc">\"icn-foc" %val%</string>
+	<string name="item.info.tooltip.requirement.vit">\"icn-vit" %val%</string>
+	<string name="item.info.tooltip.price">\"icn-money" %val%</string>
+	<string name="item.info.tooltip.experience">\"icn-exp" %val%</string>
+	<string name="item.info.tooltip.stack_price">\"icn-money" %each% (%total%)</string>
+
+	<!-- Calidad del Objeto -->
+
+	<string name="item.quality.common">Común</string>
+	<string name="item.quality.uncommon">Poco Común</string>
+	<string name="item.quality.rare">Raro</string>
+	<string name="item.quality.epic">Épico</string>
+	<string name="item.quality.legendary">Legendario</string>
+	<string name="item.quality.quest">Misión</string>
+	<string name="item.quality.unique">Único</string>
+
+
+
+	<string name="blessing.damage.name">Bendición de Poder</string>
+	<string name="blessing.damage.desc">%amnt% Daño.</string>
+	<string name="blessing.protection.name">Bendición de Protección</string>
+	<string name="blessing.protection.desc">%amnt% Daño Recibido.</string>
+	<string name="blessing.speed.name">Bendición de Rapidez</string>
+	<string name="blessing.speed.desc">%amnt% Velocidad de Movimiento.</string>
+	<string name="blessing.speed.shrine.desc">%amnt% Velocidad de Movimiento, y bonificación al deslizarse.</string>
+	<string name="blessing.light.name">Bendición de Luz</string>
+	<string name="blessing.light.desc">%amnt% Ganancia de Maldición de Sombra.</string>
+	<string name="blessing.mana.name">Bendición de Prowess</string>
+	<string name="blessing.mana.desc">%amnt% Costo de Maná.</string>
+	<string name="blessing.mana.shrine.desc">Las habilidades no cuestan maná.</string>
+	<string name="blessing.gold.name">Bendición de Riqueza</string>
+	<string name="blessing.gold.desc">%amnt% Ganancia de Oro.</string>
+	<string name="blessing.experience.name">Bendición de Sabiduría</string>
+	<string name="blessing.experience.desc">%amnt% Ganancia de Experiencia.</string>
+
+
+
+
+
+	<!-- Eliminar?? -->
+	<string name="item.trigger.tooltip.spell_01">Inflige %dmg% Daño de Fuego a todos los enemigos dentro de un radio de %radius% cuando es atacado.</string>
+	<string name="item.trigger.tooltip.spell_02">%chance%% de crear una explosión al atacar.</string>
+	<string name="item.trigger.tooltip.spell_03">%chance%% al golpear para soltar un meteorito, infligiendo mucho daño de fuego a los enemigos golpeados.</string>
+	<string name="item.complex.tooltip.modifier_01">El Daño de Fuego se convierte en Daño de Hielo.</string>
+	<string name="item.info.tooltip.complex_mod">15% para infligir \"icn-wip" por 10s</string>
+	<string name="item.info.tooltip.trigger">100% \"icn-dmg-phys" contra No Muertos</string>
+
+	<string name="item.stat.tooltip.strength">\"icn-str"%stat%</string>
+	<string name="item.stat.tooltip.dexterity">\"icn-dex"%stat%</string>
+	<string name="item.stat.tooltip.intelligence">\"icn-int"%stat%</string>
+	<string name="item.stat.tooltip.vitality">\"icn-vit"%stat%</string>
+	<string name="item.stat.tooltip.focus">\"icn-foc"%stat%</string>
+	<string name="item.stat.tooltip.atkpwr">\"icn-atkpwr"%stat%</string>
+	<string name="item.stat.tooltip.splpwr">\"icn-splpwr"%stat%</string>
+	<string name="item.stat.tooltip.armor">\"icn-res-phys"%stat%</string>
+	<string name="item.stat.tooltip.resistancefire">\"icn-res-fire"%stat%</string>
+	<string name="item.stat.tooltip.resistanceice">\"icn-res-ice"%stat%</string>
+	<string name="item.stat.tooltip.resistancelightning">\"icn-res-lightn"%stat%</string>
+	<string name="item.stat.tooltip.resistancepoison">\"icn-res-poison"%stat%</string>
+	<string name="item.stat.tooltip.statbaseddamage">\"icn-dmg-%type%"%dmg?+% (%amount%% de %stat%)</string>
+	<string name="item.stat.tooltip.damagetotal">%stat% Daño</string>
+	<string name="item.stat.tooltip.damagephysical">\"icn-dmg-phys"%stat%</string>
+	<string name="item.stat.tooltip.damagefire">\"icn-dmg-fire"%stat%</string>
+	<string name="item.stat.tooltip.damageice">\"icn-dmg-ice"%stat%</string>
+	<string name="item.stat.tooltip.damagelightning">\"icn-dmg-lightn"%stat%</string>
+	<string name="item.stat.tooltip.damagepoison">\"icn-dmg-poison"%stat%</string>
+	<string name="item.stat.tooltip.damagepure">\"icn-dmg-raw"%stat%</string>
+	<string name="item.stat.tooltip.health">\"icn-hp"%stat%</string>
+	<string name="item.stat.tooltip.mana">\"icn-mp"%stat%</string>
+	<string name="item.stat.tooltip.healthregen">\"icn-hp-rgn"%stat%</string>
+	<string name="item.stat.tooltip.manaregen">\"icn-mp-rgn"%stat%</string>
+	<string name="item.stat.tooltip.movespeed">\"icn-movespeed"%stat%%</string>
+	<string name="item.stat.tooltip.attackspeed">\"icn-speed-atk"%stat%%</string>
+	<string name="item.stat.tooltip.castspeed">\"icn-speed-cast"%stat%%</string>
+	<string name="item.stat.tooltip.evadechance">\"icn-evade"%stat%%</string>
+	<string name="item.stat.tooltip.parrychance">\"icn-parry"%stat%%</string>
+	<string name="item.stat.tooltip.damagephysicalmul">\"icn-dmg-phys"%stat%%</string>
+	<string name="item.stat.tooltip.damagefiremul">\"icn-dmg-fire"%stat%%</string>
+	<string name="item.stat.tooltip.damageicemul">\"icn-dmg-ice"%stat%%</string>
+	<string name="item.stat.tooltip.damagelightningmul">\"icn-dmg-lightn"%stat%%</string>
+	<string name="item.stat.tooltip.damagepoisonmul">\"icn-dmg-poison"%stat%%</string>
+	<string name="item.stat.tooltip.damagepuremul">\"icn-dmg-raw"%stat%%</string>
+	<string name="item.stat.tooltip.armorpen">\"icn-respen-phys"%stat%</string>
+	<string name="item.stat.tooltip.resistancefirepen">\"icn-respen-fire"%stat%</string>
+	<string name="item.stat.tooltip.resistanceicepen">\"icn-respen-ice"%stat%</string>
+	<string name="item.stat.tooltip.resistancelightningpen">\"icn-respen-lightn"%stat%</string>
+	<string name="item.stat.tooltip.resistancepoisonpen">\"icn-respen-poison"%stat%</string>
+	<string name="item.stat.tooltip.experiencemul">\"icn-expmul"%stat%%</string>
+	<string name="item.stat.tooltip.lightradius">LR%stat%</string>
+	<string name="item.stat.tooltip.spellcritchance">\"icn-crit-spellchance"%stat%%</string>
+	<string name="item.stat.tooltip.spellcritdamage">\"icn-crit-spelldmg"%stat%%</string>
+	<string name="item.stat.tooltip.critchance">\"icn-crit-atkchance"%stat%%</string>
+	<string name="item.stat.tooltip.critdamage">\"icn-crit-atkdmg"%stat%%</string>
+	<string name="item.stat.tooltip.convertstat.add">%stat%% de %from% añadido a %to%</string>
+	<string name="item.stat.tooltip.convertstat.set">%to% establecido en %stat%% de %from%</string>
+	<string name="item.stat.tooltip.convertstat.add_self">%from%+%stat%%</string>
+
+
+
+
+
+
+	<!-- Errores de Objetos -->
+	<string name="item.error.cannot_be_equipped">Este objeto no se puede equipar.</string>
+	<string name="item.error.cannot_be_used">No se puede usar esto.</string>
+	<string name="item.error.invalid_inventory">Ese objeto no va en ese inventario.</string>
+	<string name="item.error.invalid_slot">Ese objeto no va en esa ranura.</string>
+	<string name="item.error.low_level">Necesitas un nivel más alto.</string>
+	<string name="item.error.low_requirements">No cumples con los requisitos.</string>
+	<string name="item.error.player_low_gold">No tienes suficiente oro para comprar esto.</string>
+
+	
+	
+	
+	<string name="hud.levelup">¡Subiste de nivel!</string>
+	<string name="hud.potionrefill">¡Pociones recargadas!</string>
+	<string name="hud.spectate">Espectando a %name%</string>
+	<string name="hud.spectate.help">Presiona %fire% para espectar al siguiente jugador.\nPresiona %use% para dejar de espectar.</string>
+	<string name="hud.spectate.start">Presiona %use% para espectar.</string>
+
+	
+	<!-- Superposición -->
+	<string name="tab.overlay.level.town">Pueblo</string>
+	<string name="tab.overlay.level.diff_lvl">Nivel de Área %lvl%</string>
+	<string name="tab.overlay.level.ngp">\nNuevo Juego+ %ngp%</string>
+	
+	<string name="tab.overlay.player.gold">\"icn-gold"%amount%</string>
+	<string name="tab.overlay.player.wood">\"icn-wood"%amount%</string>
+	<string name="tab.overlay.player.stone">\"icn-stone"%amount%</string>
+	<string name="tab.overlay.player.iron">\"icn-iron"%amount%</string>
+	<string name="tab.overlay.player.crys">\"icn-crys"%amount%</string>
+	<string name="tab.overlay.player.dust">\"icn-dust"%amount%</string>
+	<string name="tab.overlay.player.frag">\"icn-frag"%amount%</string>
+	<string name="tab.overlay.player.unknown">%amount%?</string>
+	<string name="tab.overlay.player.shadow">\"icn-shdw"%amount%</string>
+
+	<string name="item.key.bronze">Llave de Bronce</string>
+	<string name="item.key.silver">Llave de Plata</string>
+	<string name="item.key.gold">Llave de Oro</string>
+	
+	<string name="material.name.gold">Oro</string>
+	<string name="material.name.wood">Madera</string>
+	<string name="material.name.stone">Piedra</string>
+	<string name="material.name.iron">Hierro</string>
+	<string name="material.name.crys">Cristal</string>
+	<string name="material.name.dust">Polvo</string>
+	<string name="material.name.ore">Mineral</string>
+	
+	<string name="hud.pickup.gold">\"icn-gold"%amount%</string>
+	<string name="hud.pickup.wood">\"icn-wood"%amount%</string>
+	<string name="hud.pickup.stone">\"icn-stone"%amount%</string>
+	<string name="hud.pickup.iron">\"icn-iron"%amount%</string>
+	<string name="hud.pickup.crys">\"icn-crys"%amount%</string>
+	<string name="hud.pickup.dust">\"icn-dust"%amount%</string>
+	<string name="hud.pickup.frag">\"icn-frag"%amount%</string>
+	<string name="hud.pickup.unknown">%amount%?</string>
+	
+	<string name="hud.lootlog.gold">\"icn-gold"</string>
+	<string name="hud.lootlog.wood">\"icn-wood"</string>
+	<string name="hud.lootlog.stone">\"icn-stone"</string>
+	<string name="hud.lootlog.iron">\"icn-iron"</string>
+	<string name="hud.lootlog.crys">\"icn-crys"</string>
+	<string name="hud.lootlog.dust">\"icn-dust"</string>
+	<string name="hud.lootlog.frag">\"icn-frag"</string>
+	<string name="hud.lootlog.unknown">?</string>
+	
+
+	<string name="hud.lootlog.got.sp">Obtuviste</string>
+	<string name="hud.lootlog.got.mp.self">Obtuviste</string>
+	<string name="hud.lootlog.got.mp.other"> obtuvo</string>
+	
+	<string name="hud.lootlog.skill">habilidad</string>
+	<string name="hud.lootlog.trinket">trinket</string>
+	<string name="hud.lootlog.equipment">equipo</string>
+	<string name="hud.lootlog.experience">\"icn-exp"</string>
+	<string name="hud.lootlog.shrine">monolito</string>
+	<string name="hud.lootlog.shadowcurse">maldición de sombra</string>
+	<string name="hud.lootlog.buff">mejora</string>
+	
+	<string name="hud.boxannounce.accomplishment">Logro Desbloqueado:</string>
+	<string name="hud.boxannounce.class">Clase Desbloqueada:</string>
+	<string name="hud.boxannounce.building">Edificio Desbloqueado:</string>
+	<string name="hud.boxannounce.unlocked">Desbloqueado:</string>
+	<string name="hud.boxannounce.unlocked.potion">Poción</string>
+	<string name="hud.boxannounce.unlocked.combo">Combo</string>
+
+	<string name="hud.announce.great_threat">¡Una gran amenaza ha aparecido!</string>
+
+
+	<string name="tab.overlay.time">%year% %month%/%day% %h%:%m%</string>
+
+	<!-- Generación de Objetos -->
+
+	<string name="generation.equipment.name">Equipo de %slot%</string>
+	<string name="generation.equipment.desc">Los modificadores en este equipo se revelan al crearlo.</string>
+
+	<!-- Registro de Botín -->
+
+	<string name="loot.log.you_show">Muestras a todos %item%</string>
+	<string name="loot.log.someone_shows">%name% te muestra %item%</string>
+	<string name="loot.log.looted">%name%: %item%</string>
+	<string name="loot.log.you">Tú</string>
+
+	<!-- Pedia -->
+	<string name="input.unbound">Sin asignar</string>
+	<string name="input.nomap"></string>
+	<string name="input.noinp"></string>
+	<string name="input."></string>
+
+	
+	<!-- Ubicaciones -->
+	<string name="location.level">Nivel %lvl%</string>
+	
+	<string name="location.act.forest">Bosque</string>
+	<string name="location.act.cave_light">Cuevas</string>
+	<string name="location.act.cave_dark">Cuevas Oscuras</string>
+	<string name="location.act.cave_spider">Cuevas de Araña</string>
+	<string name="location.act.prison">Prisión</string>
+	<string name="location.act.keep">Fortaleza de Bandidos</string>
+	<string name="location.act.temple">Templo</string>
+	<string name="location.act.crypt">Cripta</string>
+	<string name="location.act.dungeon">Mazmorra</string>
+	<string name="location.act.barracks">Cuarteles</string>
+	<string name="location.act.courts">Tribunales</string>
+	<string name="location.act.dark_halls">Pasillos Oscuros</string>
+	<string name="location.shortcut.dark_citadel">Ciudadela Oscura</string>
+	<string name="location.shortcut.entrance">Entrada</string>
+
+	<string name="boss.totems">Tótem</string>
+	<string name="boss.totem_ice">Tótem de Hielo</string>
+	<string name="boss.totem_earth">Tótem de Tierra</string>
+	<string name="boss.totem_fire">Tótem de Fuego</string>
+	<string name="boss.totem_lightning">Tótem de Rayo</string>
+	<string name="boss.face">Cara de Sombra</string>
+	<string name="boss.arista">Arista</string>
+	<string name="boss.harbingers">Presagios de Miedo</string>
+	<string name="boss.serpents">Serpientes de la Perdición</string>
+	<string name="boss.avatar">Avatar</string>
+	<string name="boss.spider_queen">Reina Araña</string>
+	<string name="boss.bandit">Señor Bandido</string>
+	<string name="boss.wraith">Espectro</string>
+
+
+	<string name="mission.dark_citadel.name">La Ciudadela Oscura</string>
+	<string name="mission.intro_find_npcs.name">Rescatar a los Pueblerinos</string>
+	<string name="mission.spider_caves.name">Cuevas de Araña</string>
+	<string name="mission.spider_caves.desc">Adéntrate en las cuevas de araña para cazar y destruir a la Reina Araña.</string>
+	<string name="mission.bandit_keep.name">Fortaleza de Bandidos</string>
+	<string name="mission.bandit_keep.desc">Escala la fortaleza de bandidos para encontrar y matar al Señor Bandido.</string>
+	<string name="mission.crypt.name">Cripta Fantasmal</string>
+	<string name="mission.crypt.desc">Busca en las criptas del antiguo templo y descubre sus secretos.</string>
+
+
+	<!-- Character Voices -->
+	<string name="menu.character.creation.voice.male1.title">Steven</string>
+	<string name="menu.character.creation.voice.male2.title">Tyler</string>
+	<string name="menu.character.creation.voice.male3.title">Cockney</string>
+	<string name="menu.character.creation.voice.female1.title">Clarissa</string>
+	<string name="menu.character.creation.voice.female2.title">Candice</string>
+	<string name="menu.character.creation.voice.female3.title">Diana</string>
+	
+	<!-- Hairstyles -->
+	<string name="menu.character.creation.portrait_piece.hair1">Corto Despeinado</string>
+	<string name="menu.character.creation.portrait_piece.hair2">Moño</string>
+	<string name="menu.character.creation.portrait_piece.hair3">Bob Largo</string>
+	<string name="menu.character.creation.portrait_piece.hair4">Corte de Tazón</string>
+	<string name="menu.character.creation.portrait_piece.hair5">Despeinado</string>
+	<string name="menu.character.creation.portrait_piece.hair6">Hippie</string>
+	<string name="menu.character.creation.portrait_piece.hair8">Mohicano</string>
+	<string name="menu.character.creation.portrait_piece.hair9">Cinta para el Pelo</string>
+	<string name="menu.character.creation.portrait_piece.hair11">Corte al Ras</string>
+	<string name="menu.character.creation.portrait_piece.hair12">Calvo</string>
+	<string name="menu.character.creation.portrait_piece.hair13">Afro</string>
+	<string name="menu.character.creation.portrait_piece.hair14">Trenzas</string>
+	<string name="menu.character.creation.portrait_piece.hair15">Largo y Ondulado</string>
+	<string name="menu.character.creation.portrait_piece.hair10">Bob Corto</string>
+	<string name="menu.character.creation.portrait_piece.hair17">Corte Militar</string>
+	<string name="menu.character.creation.portrait_piece.hair18">Cola de Caballo</string>
+	<string name="menu.character.creation.portrait_piece.hair19">Trenza</string>
+	<string name="menu.character.creation.portrait_piece.hair20">Glamuroso</string>
+	<string name="menu.character.creation.portrait_piece.hair22">El Tipo</string>
+	<string name="menu.character.creation.portrait_piece.hair23">Rizos Ajustados</string>
+	<string name="menu.character.creation.portrait_piece.hair24">Calvicie</string>
+	<string name="menu.character.creation.portrait_piece.hair25">Moños Espaciales</string>
+	<string name="menu.character.creation.portrait_piece.hair26">Rastas Cortas</string>
+	<string name="menu.character.creation.portrait_piece.hair27">Rizos Elegantes</string>
+	<string name="menu.character.creation.portrait_piece.hair28">Largo y Liso</string>
+	
+	<!-- Eyes -->
+	<string name="menu.character.creation.portrait_piece.eyes1">Ojos 1</string>
+	<string name="menu.character.creation.portrait_piece.eyes2">Ojos 2</string>
+	<string name="menu.character.creation.portrait_piece.eyes3">Ojos 3</string>
+	<string name="menu.character.creation.portrait_piece.eyes4">Ojos 4</string>
+	<string name="menu.character.creation.portrait_piece.eyes5">Ojos 5</string>
+	<string name="menu.character.creation.portrait_piece.eyes6">Ojos 6</string>
+	<string name="menu.character.creation.portrait_piece.eyes7">Ojos 7</string>
+	<string name="menu.character.creation.portrait_piece.eyes8">Ojos 8</string>
+	<string name="menu.character.creation.portrait_piece.eyes9">Ojos 9</string>
+	<string name="menu.character.creation.portrait_piece.eyes10">Ojos 10</string>
+	<string name="menu.character.creation.portrait_piece.eyes15">Ojos 11</string>
+	<string name="menu.character.creation.portrait_piece.eyes17">Ojos 12</string>
+	<string name="menu.character.creation.portrait_piece.eyes18">Ojos 13</string>
+	
+	<!-- Noses -->
+	<string name="menu.character.creation.portrait_piece.nose1">Nariz 1</string>
+	<string name="menu.character.creation.portrait_piece.nose2">Nariz 2</string>
+	<string name="menu.character.creation.portrait_piece.nose3">Nariz 3</string>
+	<string name="menu.character.creation.portrait_piece.nose4">Nariz 4</string>
+	<string name="menu.character.creation.portrait_piece.nose5">Nariz 5</string>
+	<string name="menu.character.creation.portrait_piece.nose6">Nariz 6</string>
+	<string name="menu.character.creation.portrait_piece.nose7">Nariz 7</string>
+	
+	<!-- Mouths -->
+	<string name="menu.character.creation.portrait_piece.mouth1">Boca 1</string>
+	<string name="menu.character.creation.portrait_piece.mouth2">Boca 2</string>
+	<string name="menu.character.creation.portrait_piece.mouth3">Boca 3</string>
+	<string name="menu.character.creation.portrait_piece.mouth4">Boca 4</string>
+	<string name="menu.character.creation.portrait_piece.mouth5">Boca 5</string>
+	<string name="menu.character.creation.portrait_piece.mouth6">Boca 6</string>
+	<string name="menu.character.creation.portrait_piece.mouth7">Boca 7</string>
+	<string name="menu.character.creation.portrait_piece.mouth8">Boca 8</string>
+	<string name="menu.character.creation.portrait_piece.mouth9">Boca 9</string>
+	<string name="menu.character.creation.portrait_piece.mouth10">Boca 10</string>
+	<string name="menu.character.creation.portrait_piece.mouth11">Boca 11</string>
+	<string name="menu.character.creation.portrait_piece.mouth12">Boca 12</string>
+	<string name="menu.character.creation.portrait_piece.mouth13">Boca 13</string>
+	<string name="menu.character.creation.portrait_piece.mouth14">Boca 14</string>
+	<string name="menu.character.creation.portrait_piece.mouth15">Boca 15</string>
+	<string name="menu.character.creation.portrait_piece.mouth16">Boca 16</string>
+	<string name="menu.character.creation.portrait_piece.mouth17">Boca 17</string>
+	
+	<!-- Hair Colors -->
+	<string name="menu.character.creation.color.hair.platium">Platino</string>
+	<string name="menu.character.creation.color.hair.blonde">Rubio</string>
+	<string name="menu.character.creation.color.hair.red">Rojo</string>
+	<string name="menu.character.creation.color.hair.brown">Castaño</string>
+	<string name="menu.character.creation.color.hair.auburn">Caoba</string>
+	<string name="menu.character.creation.color.hair.black">Negro</string>
+	<string name="menu.character.creation.color.hair.dark_gray">Gris Oscuro</string>
+	<string name="menu.character.creation.color.hair.gray">Gris</string>
+	<string name="menu.character.creation.color.hair.white">Blanco</string>
+	
+	<!-- Skin Colors -->
+	<string name="menu.character.creation.color.skin.light1">Pálido</string>
+	<string name="menu.character.creation.color.skin.light2">Claro</string>
+	<string name="menu.character.creation.color.skin.light3">Rosado</string>
+	<string name="menu.character.creation.color.skin.dark1">Oliva</string>
+	<string name="menu.character.creation.color.skin.dark2">Marrón</string>
+	<string name="menu.character.creation.color.skin.dark3">Marrón Oscuro</string>
+	<string name="menu.character.creation.color.skin.dark4">Ébano</string>
+
+
+	<string name="menu.character.creation.color.cloth.gray">Gris</string>
+	<string name="menu.character.creation.color.cloth.sand">Arena</string>
+	<string name="menu.character.creation.color.cloth.tan">Bronceado</string>
+	<string name="menu.character.creation.color.cloth.brown">Marrón</string>
+	<string name="menu.character.creation.color.cloth.oak">Roble</string>
+	<string name="menu.character.creation.color.cloth.red">Rojo</string>
+	<string name="menu.character.creation.color.cloth.green">Verde</string>
+	<string name="menu.character.creation.color.cloth.blue">Azul</string>
+	<string name="menu.character.creation.color.cloth.cadet">Cadete</string>
+	<string name="menu.character.creation.color.cloth.light_blue">Azul Claro</string>
+	<string name="menu.character.creation.color.cloth.salmon">Salmón</string>
+	<string name="menu.character.creation.color.cloth.mauve">Malva</string>
+	<string name="menu.character.creation.color.cloth.camoflague">Camuflaje</string>
+	<string name="menu.character.creation.color.cloth.ash">Pizarra</string>
+	<string name="menu.character.creation.color.cloth.moss">Musgo</string>
+	<string name="menu.character.creation.color.cloth.turquoise">Turquesa</string>
+	<string name="menu.character.creation.color.cloth.aqua">Aguamarina</string>
+	<string name="menu.character.creation.color.cloth.forest">Bosque</string>
+	<string name="menu.character.creation.color.cloth.slate">Pizarra</string>
+	<string name="menu.character.creation.color.cloth.scarlet">Escarlata</string>
+	<string name="menu.character.creation.color.cloth.teal">Verde Azulado</string>
+	<string name="menu.character.creation.color.cloth.pink">Rosa</string>
+	<string name="menu.character.creation.color.cloth.lemon">Limón</string>
+	<string name="menu.character.creation.color.cloth.elven">Élfico</string>
+	<string name="menu.character.creation.color.cloth.metallic">Metálico</string>
+	<string name="menu.character.creation.color.cloth.charcoal">Carbón</string>
+	<string name="menu.character.creation.color.cloth.imperial">Imperial</string>
+	<string name="menu.character.creation.color.cloth.lime">Lima</string>
+	<string name="menu.character.creation.color.cloth.white">Blanco</string>
+	<string name="menu.character.creation.color.cloth.violet">Violeta</string>
+	<string name="menu.character.creation.color.cloth.magma">Magma</string>
+	<string name="menu.character.creation.color.cloth.gold">Oro</string>
+	<string name="menu.character.creation.color.cloth.midnight">Medianoche</string>
+	<string name="menu.character.creation.color.cloth.ice">Hielo</string>
+	<string name="menu.character.creation.color.cloth.coral">Coral</string>
+	<string name="menu.character.creation.color.cloth.solaire">Solar</string>
+	<string name="menu.character.creation.color.cloth.ghost">Fantasma</string>
+	<string name="menu.character.creation.color.cloth.dawn">Amanecer</string>
+	<string name="menu.character.creation.color.cloth.dusk">Anochecer</string>
+
+	<string name="menu.character.creation.color.metal.aged">Envejecido</string>
+	<string name="menu.character.creation.color.metal.leaden">Plomizo</string>
+	<string name="menu.character.creation.color.metal.cooper">Cobre</string>
+	<string name="menu.character.creation.color.metal.iron">Hierro</string>
+	<string name="menu.character.creation.color.metal.bronze">Bronce</string>
+	<string name="menu.character.creation.color.metal.brass">Latón</string>
+	<string name="menu.character.creation.color.metal.light_blue">Azul Claro</string>
+	<string name="menu.character.creation.color.metal.green">Verde</string>
+	<string name="menu.character.creation.color.metal.blue">Azul</string>
+	<string name="menu.character.creation.color.metal.orange">Naranja</string>
+	<string name="menu.character.creation.color.metal.patina">Pátina</string>
+	<string name="menu.character.creation.color.metal.citrus">Cítrico</string>
+	<string name="menu.character.creation.color.metal.jungle">Selva</string>
+	<string name="menu.character.creation.color.metal.steel">Acero</string>
+	<string name="menu.character.creation.color.metal.jade">Jade</string>
+	<string name="menu.character.creation.color.metal.rust">Óxido</string>
+	<string name="menu.character.creation.color.metal.dark_blue">Azul Oscuro</string>
+	<string name="menu.character.creation.color.metal.pink">Rosa</string>
+	<string name="menu.character.creation.color.metal.purple">Púrpura</string>
+	<string name="menu.character.creation.color.metal.lilac">Lila</string>
+	<string name="menu.character.creation.color.metal.silver">Plata</string>
+	<string name="menu.character.creation.color.metal.coagulation">Coagulación</string>
+	<string name="menu.character.creation.color.metal.darkness">Oscuridad</string>
+	<string name="menu.character.creation.color.metal.majestic">Majestuoso</string>
+	<string name="menu.character.creation.color.metal.firefly">Luciérnaga</string>
+	<string name="menu.character.creation.color.metal.platinum">Platino</string>
+	<string name="menu.character.creation.color.metal.gold">Oro</string>
+	<string name="menu.character.creation.color.metal.iridescent">Irisado</string>
+	<string name="menu.character.creation.color.metal.molten">Fundido</string>
+	<string name="menu.character.creation.color.metal.ruby">Rubí</string>
+	<string name="menu.character.creation.color.metal.hailstone">Granizo</string>
+	<string name="menu.character.creation.color.metal.bright">Brillante</string>
+	<string name="menu.character.creation.color.metal.resurrected">Resucitado</string>
+	<string name="menu.character.creation.color.metal.shimmer">Brillo</string>
+
+	<string name="menu.character.creation.color.leather.brown">Marrón</string>
+	<string name="menu.character.creation.color.leather.red">Rojo</string>
+	<string name="menu.character.creation.color.leather.garnet">Granate</string>
+	<string name="menu.character.creation.color.leather.desert">Desierto</string>
+	<string name="menu.character.creation.color.leather.scourge">Plaga</string>
+	<string name="menu.character.creation.color.leather.flamingo">Flamenco</string>
+	<string name="menu.character.creation.color.leather.sunny">Soleado</string>
+	<string name="menu.character.creation.color.leather.black">Negro</string>
+	<string name="menu.character.creation.color.leather.white">Blanco</string>
+	<string name="menu.character.creation.color.leather.violet">Violeta</string>
+	<string name="menu.character.creation.color.leather.pink">Rosa</string>
+	<string name="menu.character.creation.color.leather.tar">Alquitrán</string>
+	<string name="menu.character.creation.color.leather.sunset">Atardecer</string>
+	<string name="menu.character.creation.color.leather.liana">Liana</string>
+	<string name="menu.character.creation.color.leather.gore">Sangre</string>
+	<string name="menu.character.creation.color.leather.regal">Regio</string>
+	<string name="menu.character.creation.color.leather.frost">Escarcha</string>
+	<string name="menu.character.creation.color.leather.ghost">Fantasma</string>
+	<string name="menu.character.creation.color.leather.blue">Azul</string>
+	<string name="menu.character.creation.color.leather.green">Verde</string>
+	<string name="menu.character.creation.color.leather.amber">Ámbar</string>
+	<string name="menu.character.creation.color.leather.gilded">Dorado</string>
+	<string name="menu.character.creation.color.leather.serpent">Serpiente</string>
+	<string name="menu.character.creation.color.leather.sunrise">Amanecer</string>
+	<string name="menu.character.creation.color.leather.mold">Moho</string>
+	<string name="menu.character.creation.color.leather.teal">Verde Azulado</string>
+	<string name="menu.character.creation.color.leather.parrot">Loro</string>
+
+	<string name="menu.character.creation.color.wood.pine">Pino</string>
+	<string name="menu.character.creation.color.wood.spruce">Abeto</string>
+	<string name="menu.character.creation.color.wood.mahogany">Caoba</string>
+	<string name="menu.character.creation.color.wood.acacia">Acacia</string>
+	<string name="menu.character.creation.color.wood.oak">Roble</string>
+	<string name="menu.character.creation.color.wood.birch">Abedul</string>
+	<string name="menu.character.creation.color.wood.old">Viejo</string>
+	<string name="menu.character.creation.color.wood.snow">Nieve</string>
+	<string name="menu.character.creation.color.wood.ash">Ceniza</string>
+	<string name="menu.character.creation.color.wood.coal">Carbón</string>
+	<string name="menu.character.creation.color.wood.noble">Noble</string>
+	<string name="menu.character.creation.color.wood.ocean">Océano</string>
+	<string name="menu.character.creation.color.wood.shamrock">Trébol</string>
+	<string name="menu.character.creation.color.wood.ripe">Maduro</string>
+	<string name="menu.character.creation.color.wood.banana">Banana</string>
+	<string name="menu.character.creation.color.wood.cantaloupe">Melón</string>
+	<string name="menu.character.creation.color.wood.blood">Sangre</string>
+	<string name="menu.character.creation.color.wood.hearth">Hogar</string>
+	<string name="menu.character.creation.color.wood.daybreak">Amanecer</string>
+	<string name="menu.character.creation.color.wood.nightfall">Anochecer</string>
+	<string name="menu.character.creation.color.wood.evening">Atardecer</string>
+	<string name="menu.character.creation.color.wood.cherry_blossom">Flor de Cerezo</string>
+	<string name="menu.character.creation.color.wood.glacier">Glaciar</string>
+	<string name="menu.character.creation.color.wood.spectre">Espectro</string>
+	<string name="menu.character.creation.color.wood.seaweed">Alga Marina</string>
+	<string name="menu.character.creation.color.wood.gold">Oro</string>
+
+	<string name="menu.character.creation.color.gem.garnet">Granate</string>
+	<string name="menu.character.creation.color.gem.aquamarine">Aguamarina</string>
+	<string name="menu.character.creation.color.gem.sapphire">Zafiro</string>
+	<string name="menu.character.creation.color.gem.amber">Ámbar</string>
+	<string name="menu.character.creation.color.gem.citrine">Citrino</string>
+	<string name="menu.character.creation.color.gem.emerald">Esmeralda</string>
+	<string name="menu.character.creation.color.gem.amethyst">Amatista</string>
+	<string name="menu.character.creation.color.gem.ruby">Rubí</string>
+	<string name="menu.character.creation.color.gem.diamond">Diamante</string>
+	<string name="menu.character.creation.color.gem.obsidian">Obsidiana</string>
+
+	
+	
+	
+	<string name="o.as360.pro">Detectar como Controlador Pro de Switch</string>
+	<string name="o.joystick.pro">Controlador Pro%slot%</string>
+	<string name="g_laser_sight.help.pro">Mostrar una línea delgada para ayudar a apuntar. Automático significa solo cuando se usa un Controlador Pro.</string>
+	<string name="menu.controls.layout.gp1.pro">CONTROLADOR PRO 1</string>
+	<string name="menu.controls.layout.gp2.pro">CONTROLADOR PRO 2</string>
+	<string name="menu.controls.layout.gp3.pro">CONTROLADOR PRO 3</string>
+	<string name="menu.controls.layout.gp4.pro">CONTROLADOR PRO 4</string>
+	<string name="menu.controls.move.gp_left.pro">CONTROLADOR PRO: STICK IZQUIERDO</string>
+	<string name="menu.controls.move.gp_right.pro">CONTROLADOR PRO: STICK DERECHO</string>
+	<string name="menu.controls.aim.gp_right.pro">CONTROLADOR PRO: STICK DERECHO</string>
+	<string name="menu.controls.aim.gp_left.pro">CONTROLADOR PRO: STICK IZQUIERDO</string>
+
+	
+	
+	
+	
+	
+	
+	<!-- Títulos de Héroe -->
+	<string name="htitle.paladin.desc">Otorga %num% Armadura, %num-per% por nivel.</string>
+	<string name="htitle.ranger.desc">Otorga %num% Poder de Arma, %num-per% por nivel.</string>
+	<string name="htitle.rogue.desc">Otorga %num%% reducción de Daño de Trampa, %num-per%% por nivel.</string>
+	<string name="htitle.sorcerer.desc">Otorga %num% Regeneración de Maná, %num-per% por nivel.</string>
+	<string name="htitle.warlock.desc">Otorga %num% Resistencia a Fuego, Hielo, Rayo y Veneno, %num-per% por nivel.</string>
+	<string name="htitle.warrior.desc">Otorga %num% Salud, %num-per% por nivel.</string>
+	<string name="htitle.wizard.desc">Otorga %num% Poder de Hechizo, %num-per% por nivel.</string>
+
+	<!-- Títulos de Donación -->
+	<string name="dtitle.format">Donado %amnt%: %desc%</string>
+	<string name="dtitle.gold.name">Magnate</string>
+	<string name="dtitle.gold.desc">Otorga +%num%% Daño de Arma.</string>
+	<string name="dtitle.wood.name">Leñador</string>
+	<string name="dtitle.wood.desc">Otorga +%num%% Daño de Hechizo.</string>
+	<string name="dtitle.stone.name">Cantero</string>
+	<string name="dtitle.stone.desc">Otorga %num%% reducción de Daño Recibido.</string>
+	<string name="dtitle.iron.name">Herrero</string>
+	<string name="dtitle.iron.desc">Otorga %num%% de Ganancia de Poción, Regeneración y Salud de Recogida.</string>
+
+	
+	
+	
+	
+	<!-- Estadísticas -->
+	<string name="stat.icon.elites">\cb0dfffÉlites\d</string>
+	<string name="stat.name.elites">Enemigos más fuertes marcados por un círculo rojo en sus pies.</string>
+	<string name="stat.icon.stun">\cb0dfffAturdimiento\d</string>
+	<string name="stat.name.stun">Detenido por 1.5 segundos, impidiendo movimiento y habilidades.</string>
+	<string name="stat.icon.slow">\cb0dfffLentitud\d</string>
+	<string name="stat.name.slow">30% de disminución de Velocidad de Movimiento, Velocidad de Arma y Velocidad de Lanzamiento por 4 segundos.</string>
+	<string name="stat.icon.weakness">\cb0dfffDebilidad\d</string>
+	<string name="stat.name.weakness">20% de disminución en el daño infligido por 6 segundos.</string>
+	<string name="stat.icon.vulnerability">\cb0dfffVulnerabilidad\d</string>
+	<string name="stat.name.vulnerability">Aumento del 20% en el daño recibido durante 6 segundos.</string>
+	<string name="stat.icon.silence">\cb0dfffSilencio\d</string>
+	<string name="stat.name.silence">Impide lanzar hechizos durante 3 segundos.</string>
+	<string name="stat.icon.disarm">\cb0dfffDesarme\d</string>
+	<string name="stat.name.disarm">Impide atacar con armas durante 3 segundos.</string>
+	<string name="stat.icon.bleeding">\cb0dfffSangrado\d</string>
+	<string name="stat.name.bleeding">6 de daño infligido cada segundo y al moverse, dura 5 segundos.</string>
+	<string name="stat.icon.blindness">\cb0dfffCeguera\d</string>
+	<string name="stat.name.blindness">30% de probabilidad de fallar ataques durante 5 segundos.</string>
+	<string name="stat.icon.cripple">\cb0dfffMutilación\d</string>
+	<string name="stat.name.cripple">65% de disminución de Velocidad de Movimiento durante 4 segundos.</string>
+	<string name="stat.icon.freeze">\cb0dfffCongelación\d</string>
+	<string name="stat.name.freeze">Detenido por 2.5 segundos, impidiendo movimiento y habilidades.</string>
+	<string name="stat.icon.lowlife">\cb0dfffVida Baja\d</string>
+	<string name="stat.name.lowlife">Por debajo del 35% de salud máxima.</string>
+	<string name="stat.icon.armor_break">\cb0dfffRotura de Armadura\d</string>
+	<string name="stat.name.armor_break">Reduce la armadura en un 20% durante 5 segundos.</string>
+
+	
+	
+	<string name="stat.custom.goldgain">Ganancia de Oro</string>
+	<string name="stat.custom.woodgain">Ganancia de Madera</string>
+	<string name="stat.custom.stonegain">Ganancia de Piedra</string>
+	<string name="stat.custom.irongain">Ganancia de Hierro</string>
+	<string name="stat.custom.crysgain">Ganancia de Cristal</string>
+	<string name="stat.custom.dustgain">Ganancia de Polvo</string>
+	<string name="stat.custom.fraggain">Ganancia de Fragmento</string>
+	<string name="stat.custom.scursegain">Ganancia de Maldición de Sombra</string>
+	<string name="stat.custom.damage">Daño</string>
+	<string name="stat.custom.mainhanddamage">Daño de Mano Principal</string>
+	<string name="stat.custom.offhanddamage">Daño de Mano Secundaria</string>
+
+	
+	<string name="stat.icon.gold">\"icn-gold"</string>
+	<string name="stat.name.gold">Oro</string>
+	<string name="stat.icon.wood">\"icn-wood"</string>
+	<string name="stat.name.wood">Madera</string>
+	<string name="stat.icon.stone">\"icn-stone"</string>
+	<string name="stat.name.stone">Piedra</string>
+	<string name="stat.icon.iron">\"icn-iron"</string>
+	<string name="stat.name.iron">Hierro</string>
+	<string name="stat.icon.crys">\"icn-crys"</string>
+	<string name="stat.name.crys">Cristal</string>
+	<string name="stat.icon.dust">\"icn-dust"</string>
+	<string name="stat.name.dust">Polvo</string>
+	<string name="stat.icon.frag">\"icn-frag"</string>
+	<string name="stat.name.frag">Fragmento</string>
+
+	<string name="stat.icon.strength">\"icn-str"</string>
+	<string name="stat.name.strength">Fuerza</string>
+	<string name="stat.icon.dexterity">\"icn-dex"</string>
+	<string name="stat.name.dexterity">Destreza</string>
+	<string name="stat.icon.intelligence">\"icn-int"</string>
+	<string name="stat.name.intelligence">Inteligencia</string>
+	<string name="stat.icon.vitality">\"icn-vit"</string>
+	<string name="stat.name.vitality">Vitalidad</string>
+	<string name="stat.icon.focus">\"icn-foc"</string>
+	<string name="stat.name.focus">Enfoque</string>
+	<string name="stat.icon.atkpwr">\"icn-atkpwr"</string>
+	<string name="stat.name.atkpwr">Poder de Arma</string>
+	<string name="stat.icon.splpwr">\"icn-splpwr"</string>
+	<string name="stat.name.splpwr">Poder de Hechizo</string>
+	
+	
+	<string name="stat.icon.armor">\"icn-res-phys"</string>
+	<string name="stat.name.armor">Armadura</string>
+	<string name="stat.icon.resistancefire">\"icn-res-fire"</string>
+	<string name="stat.name.resistancefire">Resistencia al Fuego</string>
+	<string name="stat.icon.resistanceice">\"icn-res-ice"</string>
+	<string name="stat.name.resistanceice">Resistencia al Hielo</string>
+	<string name="stat.icon.resistancelightning">\"icn-res-lightn"</string>
+	<string name="stat.name.resistancelightning">Resistencia al Rayo</string>
+	<string name="stat.icon.resistancepoison">\"icn-res-poison"</string>
+	<string name="stat.name.resistancepoison">Resistencia al Veneno</string>
+	
+	
+	<string name="stat.icon.damage">D</string>
+	<string name="stat.name.damage">Daño</string>
+	<string name="stat.icon.damagephysical">\"icn-dmg-phys"</string>
+	<string name="stat.name.damagephysical">Daño Físico</string>
+	<string name="stat.icon.damagefire">\"icn-dmg-fire"</string>
+	<string name="stat.name.damagefire">Daño de Fuego</string>
+	<string name="stat.icon.damageice">\"icn-dmg-ice"</string>
+	<string name="stat.name.damageice">Daño de Hielo</string>
+	<string name="stat.icon.damagelightning">\"icn-dmg-lightn"</string>
+	<string name="stat.name.damagelightning">Daño de Rayo</string>
+	<string name="stat.icon.damagepoison">\"icn-dmg-poison"</string>
+	<string name="stat.name.damagepoison">Daño de Veneno</string>
+	<string name="stat.icon.damagepure">\"icn-dmg-raw"</string>
+	<string name="stat.name.damagepure">Daño Puro</string>
+	
+	
+	<string name="stat.icon.health">\"icn-hp"</string>
+	<string name="stat.name.health">Salud</string>
+	<string name="stat.icon.mana">\"icn-mp"</string>
+	<string name="stat.name.mana">Maná</string>
+	<string name="stat.icon.healthregen">\"icn-hp-rgn"</string>
+	<string name="stat.name.healthregen">Regeneración de Salud</string>
+	<string name="stat.icon.manaregen">\"icn-mp-rgn"</string>
+	<string name="stat.name.manaregen">Regeneración de Maná</string>
+	
+	<string name="stat.icon.movespeed">\"icn-movespeed"</string>
+	<string name="stat.name.movespeed">Velocidad de Movimiento</string>
+	<string name="stat.icon.attackspeed">\"icn-speed-atk"</string>
+	<string name="stat.name.attackspeed">Velocidad de Arma</string>
+	<string name="stat.icon.castspeed">\"icn-speed-cast"</string>
+	<string name="stat.name.castspeed">Velocidad de Lanzamiento</string>
+	<string name="stat.name.evadechance">Probabilidad de Evasión</string>
+	<string name="stat.icon.evadechance">\"icn-evade"</string>
+	<string name="stat.icon.parrychance">\"icn-parry"</string>
+	<string name="stat.name.parrychance">Probabilidad de Parada</string>
+	<string name="stat.icon.experiencemul">\"icn-expmul"</string>
+	<string name="stat.name.experiencemul">Ganancia de Experiencia</string>
+	<string name="stat.icon.experience">\"icn-exp"</string>
+	<string name="stat.name.experience">Experiencia</string>
+	
+	<string name="stat.icon.spellcritchance">\"icn-crit-spellchance"</string>
+	<string name="stat.name.spellcritchance">Probabilidad de Crítico de Hechizo</string>
+	<string name="stat.icon.spellcritdamage">\"icn-crit-spelldmg"</string>
+	<string name="stat.name.spellcritdamage">Daño Crítico de Hechizo</string>
+	<string name="stat.icon.critchance">\"icn-crit-atkchance"</string>
+	<string name="stat.name.critchance">Probabilidad de Crítico de Arma</string>
+	<string name="stat.icon.critdamage">\"icn-crit-atkdmg"</string>
+	<string name="stat.name.critdamage">Daño Crítico de Arma</string>
+	
+	<string name="stat.icon.armorpen">\"icn-respen-phys"</string>
+	<string name="stat.name.armorpen">Penetración de Armadura</string>
+	<string name="stat.icon.resistancefirepen">\"icn-respen-fire"</string>
+	<string name="stat.name.resistancefirepen">Penetración de Resistencia al Fuego</string>
+	<string name="stat.icon.resistanceicepen">\"icn-respen-ice"</string>
+	<string name="stat.name.resistanceicepen">Penetración de Resistencia al Hielo</string>
+	<string name="stat.icon.resistancelightningpen">\"icn-respen-lightn"</string>
+	<string name="stat.name.resistancelightningpen">Penetración de Resistencia al Rayo</string>
+	<string name="stat.icon.resistancepoisonpen">\"icn-respen-poison"</string>
+	<string name="stat.name.resistancepoisonpen">Penetración de Resistencia al Veneno</string>
+	
+	<string name="stat.icon.attrpt">\"icn-attrpt"</string>
+	<string name="stat.name.attrpt">Punto de Atributo</string>
+	<string name="stat.icon.skillpt">\"icn-skillpt"</string>
+	<string name="stat.name.skillpt">Punto de Habilidad</string>
+
+	<string name="stat.name.reroll">Repetir</string>
+
+	
+	
+	
+	
+	
+	
+	<string name="accomplishment.paladin">Capítulo de Caballeros %num%</string>
+	<string name="accomplishment.paladin.desc">Alcanza el nivel %num% con un Paladín.</string>
+	<string name="accomplishment.ranger">Cabaña de Cazadores %num%</string>
+	<string name="accomplishment.ranger.desc">Alcanza el nivel %num% con un Explorador.</string>
+	<string name="accomplishment.rogue">Guarida de Ladrones %num%</string>
+	<string name="accomplishment.rogue.desc">Alcanza el nivel %num% con un Pícaro.</string>
+	<string name="accomplishment.sorcerer">Círculo de Magos %num%</string>
+	<string name="accomplishment.sorcerer.desc">Alcanza el nivel %num% con un Hechicero.</string>
+	<string name="accomplishment.warlock">Coven Oscuro %num%</string>
+	<string name="accomplishment.warlock.desc">Alcanza el nivel %num% con un Brujo.</string>
+	<string name="accomplishment.warrior">Foso de Lucha %num%</string>
+	<string name="accomplishment.warrior.desc">Alcanza el nivel %num% con un Guerrero.</string>
+	<string name="accomplishment.wizard">Liga Arcana %num%</string>
+	<string name="accomplishment.wizard.desc">Alcanza el nivel %num% con un Mago.</string>
+	
+	<string name="accomplishment.enemy-kills">Asesinos %num%</string>
+	<string name="accomplishment.enemy-kills.desc">Mata %num% enemigos.</string>
+	<string name="accomplishment.damage-dealt">Dañadores %num%</string>
+	<string name="accomplishment.damage-dealt.desc">Inflige %num% de daño.</string>
+	<string name="accomplishment.damage-dealt-max">Golpeadores Fuertes %num%</string>
+	<string name="accomplishment.damage-dealt-max.desc">Inflige %num% de daño en una sola instancia de daño.</string>
+	<string name="accomplishment.damage-blocked">Bloqueadores %num%</string>
+	<string name="accomplishment.damage-blocked.desc">Bloquea %num% de daño.</string>
+	<string name="accomplishment.spent-mana">Hechiceros %num%</string>
+	<string name="accomplishment.spent-mana.desc">Gasta %num% de maná lanzando hechizos.</string>
+	<string name="accomplishment.combo-max">Rachas de Combo %num%</string>
+	<string name="accomplishment.combo-max.desc">Encadena un combo de %num% muertes.</string>
+	<string name="accomplishment.potion-charges-used">Bebedores de Poción %num%</string>
+	<string name="accomplishment.potion-charges-used.desc">Bebe de la poción %num% veces.</string>
+	<string name="accomplishment.crit-count">Golpeadores Críticos %num%</string>
+	<string name="accomplishment.crit-count.desc">Realiza %num% golpes críticos.</string>
+	<string name="accomplishment.evade-amount">Evasores %num%</string>
+	<string name="accomplishment.evade-amount.desc">Evade %num% ataques.</string>
+	<string name="accomplishment.parry-amount">Esgrimistas %num%</string>
+	<string name="accomplishment.parry-amount.desc">Para %num% ataques.</string>
+	
+	<string name="accomplishment.enemy-kills-undead">Santificador %num%</string>
+	<string name="accomplishment.enemy-kills-undead.desc">Mata %num% no muertos.</string>
+	<string name="accomplishment.enemy-kills-beast">Cazador %num%</string>
+	<string name="accomplishment.enemy-kills-beast.desc">Mata %num% bestias.</string>
+	<string name="accomplishment.enemy-kills-human">Asesino %num%</string>
+	<string name="accomplishment.enemy-kills-human.desc">Mata %num% humanos.</string>
+	<string name="accomplishment.enemy-kills-aberration">Exorcista %num%</string>
+	<string name="accomplishment.enemy-kills-aberration.desc">Mata %num% aberraciones.</string>
+	<string name="accomplishment.enemy-kills-construct">Demoledor %num%</string>
+	<string name="accomplishment.enemy-kills-construct.desc">Mata %num% construcciones.</string>
+	<string name="accomplishment.enemy-kills-elite">Élite %num%</string>
+	<string name="accomplishment.enemy-kills-elite.desc">Mata %num% enemigos élite.</string>
+
+	
+	<string name="accomplishment.secrets-found">Detectives %num%</string>
+	<string name="accomplishment.secrets-found.desc">Encuentra %num% secretos.</string>
+	<string name="accomplishment.called-to-arms">Reclutadores %num%</string>
+	<string name="accomplishment.called-to-arms.desc">Recluta %num% mercenarios.</string>
+	<string name="accomplishment.traveling-cook-meals">Comida Rápida %num%</string>
+	<string name="accomplishment.traveling-cook-meals.desc">Come %num% comidas del cocinero viajero.</string>
+	<string name="accomplishment.shady-trades">Negociadores %num%</string>
+	<string name="accomplishment.shady-trades.desc">Realiza %num% intercambios sospechosos.</string>
+	<string name="accomplishment.imps-used">Cazador de Imp %num%</string>
+	<string name="accomplishment.imps-used.desc">Encuentra %num% imps.</string>
+	<string name="accomplishment.shrines-used">Poderes Antiguos %num%</string>
+	<string name="accomplishment.shrines-used.desc">Recibe bendiciones de %num% monolitos.</string>
+	<string name="accomplishment.wells-used">Reponedores %num%</string>
+	<string name="accomplishment.wells-used.desc">Usa %num% pozos.</string>
+	<string name="accomplishment.pyres-used">Purga por Fuego %num%</string>
+	<string name="accomplishment.pyres-used.desc">Purga la maldición de sombras con una pira %num% veces.</string>
+	<string name="accomplishment.thunderbirds-used">Alivio Trueno %num%</string>
+	<string name="accomplishment.thunderbirds-used.desc">Envía materiales de vuelta con un ave trueno %num% veces.</string>
+	<string name="accomplishment.highest-ngp">Ciudadela Oscura %num%</string>
+	<string name="accomplishment.highest-ngp.desc">Alcanza Nuevo Juego+ %num%.</string>
+
+	
+	<string name="accomplishment.collected-trinket-common">Coleccionista Común %num%</string>
+	<string name="accomplishment.collected-trinket-common.desc">Encuentra %num% amuletos comunes.</string>
+	<string name="accomplishment.collected-trinket-uncommon">Coleccionista Poco Común %num%</string>
+	<string name="accomplishment.collected-trinket-uncommon.desc">Encuentra %num% amuletos poco comunes.</string>
+	<string name="accomplishment.collected-trinket-rare">Coleccionista Raro %num%</string>
+	<string name="accomplishment.collected-trinket-rare.desc">Encuentra %num% amuletos raros.</string>
+	<string name="accomplishment.collected-trinket-epic">Coleccionista Épico %num%</string>
+	<string name="accomplishment.collected-trinket-epic.desc">Encuentra %num% amuletos épicos.</string>
+	<string name="accomplishment.collected-trinket-cursed">Coleccionista Maldito %num%</string>
+	<string name="accomplishment.collected-trinket-cursed.desc">Encuentra %num% amuletos malditos.</string>
+
+	<string name="accomplishment.elixirs-collected">Elixtrioso %num%</string>
+	<string name="accomplishment.elixirs-collected.desc">Encuentra %num% elixires.</string>
+	
+	<string name="accomplishment.maps-collected">Cartógrafo %num%</string>
+	<string name="accomplishment.maps-collected.desc">Encuentra %num% mapas.</string>
+
+	<string name="accomplishment.pickup-health">Gourmets %num%</string>
+	<string name="accomplishment.pickup-health.desc">Consume %num% objetos de salud.</string>
+	<string name="accomplishment.pickup-mana">Arcanos %num%</string>
+	<string name="accomplishment.pickup-mana.desc">Absorbe %num% objetos de maná.</string>
+
+	<string name="accomplishment.buildings-built">Constructores %num%</string>
+	<string name="accomplishment.buildings-built.desc">Compra %num% mejoras de edificios.</string>
+
+	
+	
+	
+	<string name="statistic.damage-dealt">Daño infligido</string>
+	<string name="statistic.damage-dealt-max">Daño máximo infligido</string>
+	<string name="statistic.damage-taken">Daño recibido</string>
+	<string name="statistic.damage-taken-max">Daño máximo recibido</string>
+	<string name="statistic.damage-returned">Daño devuelto</string>
+	<string name="statistic.enemy-kills">Enemigos asesinados</string>
+	<string name="statistic.amount-healed">Cantidad curada</string>
+	<string name="statistic.crit-count">Golpes críticos acertados</string>
+	<string name="statistic.leech-life">Vida drenada</string>
+	<string name="statistic.leech-mana">Maná drenado</string>
+	<string name="statistic.potion-charges-used">Cargas de poción usadas</string>
+	<string name="statistic.spent-mana">Maná gastado</string>
+	<string name="statistic.death-count">Muertes</string>
+	<string name="statistic.damage-blocked">Daño bloqueado</string>
+	<string name="statistic.evade-amount">Ataques evadidos</string>
+	<string name="statistic.parry-amount">Ataques bloqueados</string>
+	<string name="statistic.combo-max">Combo más alto alcanzado</string>
+	<string name="statistic.damage-taken-phys">Daño físico recibido</string>
+	<string name="statistic.damage-taken-fire">Daño por fuego recibido</string>
+	<string name="statistic.damage-taken-ice">Daño por hielo recibido</string>
+	<string name="statistic.damage-taken-light">Daño por rayo recibido</string>
+	<string name="statistic.damage-taken-poison">Daño por veneno recibido</string>
+	<string name="statistic.damage-taken-pure">Daño puro recibido</string>
+	<string name="statistic.enemy-kills-beast">Bestias asesinadas</string>
+	<string name="statistic.enemy-kills-human">Humanos asesinados</string>
+	<string name="statistic.enemy-kills-aberration">Aberraciones asesinadas</string>
+	<string name="statistic.enemy-kills-construct">Construcciones destruidas</string>
+	<string name="statistic.enemy-kills-undead">No muertos asesinados</string>
+	<string name="statistic.enemy-kills-elite">Enemigos élite asesinados</string>
+
+	<string name="statistic.timer-ms-mission">Tiempo en misión</string>
+	<string name="statistic.timer-ms-town">Tiempo en la ciudad</string>
+	<string name="statistic.floors-visited">Niveles visitados</string>
+	<string name="statistic.shrines-used">Monolitos usados</string>
+	<string name="statistic.wells-used">Pozos usados</string>
+	<string name="statistic.pyres-used">Piras usadas</string>
+	<string name="statistic.braziers-used">Brazas usadas</string>
+	<string name="statistic.thunderbirds-used">Aves trueno usadas</string>
+	<string name="statistic.imps-used">Imps usados</string>
+	<string name="statistic.shady-trades">Intercambios sospechosos realizados</string>
+	<string name="statistic.traveling-cook-meals">Comidas del cocinero viajero consumidas</string>
+	<string name="statistic.called-to-arms">Mercenarios reclutados</string>
+	<string name="statistic.secrets-found">Secretos encontrados</string>
+	<string name="statistic.chests-opened">Cofres abiertos</string>
+	<string name="statistic.units-traveled">Distancia recorrida</string>
+	<string name="statistic.exp-gained">Experiencia ganada</string>
+	<string name="statistic.shadow-curse-got">Maldito por sombras</string>
+	<string name="statistic.shadow-curse-removed">Maldiciones de sombras purgadas</string>
+	<string name="statistic.collected-trinket-common">Amuletos comunes recolectados</string>
+	<string name="statistic.collected-trinket-uncommon">Amuletos poco comunes recolectados</string>
+	<string name="statistic.collected-trinket-rare">Amuletos raros recolectados</string>
+	<string name="statistic.collected-trinket-epic">Amuletos épicos recolectados</string>
+	<string name="statistic.collected-trinket-cursed">Amuletos malditos recolectados</string>
+	<string name="statistic.elixirs-collected">Elixires recolectados</string>
+	<string name="statistic.pickup-health">Objetos de salud recolectados</string>
+	<string name="statistic.pickup-mana">Objetos de maná recolectados</string>
+	<string name="statistic.pickup-exp">Pergaminos de experiencia recolectados</string>
+	<string name="statistic.max-level-paladin">Nivel máximo alcanzado con Paladín</string>
+	<string name="statistic.max-level-ranger">Nivel máximo alcanzado con Guardabosques</string>
+	<string name="statistic.max-level-wizard">Nivel máximo alcanzado con Mago</string>
+	<string name="statistic.max-level-warrior">Nivel máximo alcanzado con Guerrero</string>
+	<string name="statistic.max-level-rogue">Nivel máximo alcanzado con Pícaro</string>
+	<string name="statistic.max-level-warlock">Nivel máximo alcanzado con Brujo</string>
+	<string name="statistic.max-level-sorcerer">Nivel máximo alcanzado con Hechicero</string>
+	<string name="statistic.highest-ngp">Nuevo Juego+ más alto alcanzado</string>
+	
+	<string name="statistic.buildings-built">Edificios construidos</string>
+	<string name="statistic.valuables-collected">Objetos valiosos recolectados</string>
+	<string name="statistic.valuables-value">Valor de los objetos valiosos</string>
+	<string name="statistic.collected-gold">Oro recolectado</string>
+	<string name="statistic.sent-back-gold">Oro enviado a la ciudad</string>
+	<string name="statistic.chapel-revive-gold">Oro "donado" a la capilla</string>
+	<string name="statistic.collected-wood">Madera recolectada</string>
+	<string name="statistic.sent-back-wood">Madera enviada a la ciudad</string>
+	<string name="statistic.chapel-revive-wood">Madera "donada" a la capilla</string>
+	<string name="statistic.collected-stone">Piedra recolectada</string>
+	<string name="statistic.sent-back-stone">Piedra enviada a la ciudad</string>
+	<string name="statistic.chapel-revive-stone">Piedra "donada" a la capilla</string>
+	<string name="statistic.collected-iron">Hierro recolectado</string>
+	<string name="statistic.sent-back-iron">Hierro enviado a la ciudad</string>
+	<string name="statistic.chapel-revive-iron">Hierro "donado" a la capilla</string>
+	<string name="statistic.collected-crystals">Cristales recolectados</string>
+	<string name="statistic.sent-back-crystals">Cristales enviados a la ciudad</string>
+	<string name="statistic.chapel-revive-crystals">Cristales "donados" a la capilla</string>
+	<string name="statistic.collected-dust">Polvo recolectado</string>
+	<string name="statistic.sent-back-dust">Polvo enviado a la ciudad</string>
+	<string name="statistic.chapel-revive-dust">Polvo "donado" a la capilla</string>
+	<string name="statistic.collected-fragments">Fragmentos recolectados</string>
+	<string name="statistic.sent-back-fragments">Fragmentos enviados a la ciudad</string>
+	<string name="statistic.chapel-revive-fragments">Fragmentos "donados" a la capilla</string>
+
+</lang>

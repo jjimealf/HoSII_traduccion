@@ -242,7 +242,7 @@
 <string name="trinket.set.soldiers_uniform.5">-%num%% Daño Recibido</string>
 <string name="trinket.set.soldiers_uniform.5b">%leech%% Robo de Vida en Crítico de Arma</string>
 <string name="trinket.set.dragon_lord.name">Señor de los Dragones</string>
-<string name="trinket.set.dragon_lord.3">+%nBlackjackm%% Poder de Hechizo por Vitalidad</string>
+<string name="trinket.set.dragon_lord.3">+%num% Poder de Hechizo por Vitalidad</string>
 <string name="trinket.set.dragon_lord.4">+%num%% Robo de Vida de Hechizo</string>
 <string name="trinket.set.holy_relics.name">Reliquias Sagradas</string>
 <string name="trinket.set.holy_relics.2">-%num%% Ganancia de Maldición de Sombra</string>
@@ -393,4 +393,5 @@
 <string name="item.elixir_vit.desc">Otorga permanentemente %add% \"icn-vit" Vitalidad</string>
 
 </lang>
+
 
